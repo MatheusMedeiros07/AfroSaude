@@ -1,6 +1,22 @@
 * {
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+}
+
+header {
+    display: grid;
+    align-items: center;
+    background-color: sandybrown;
+    height: 20vh;
+    text-align: center;
+    width: 100%;
+}
+
+main {
+    background-color: white;
+    height: 100vh;
+    width: 100%;
 }
 
 .rodape {
@@ -48,6 +64,8 @@
 .rd-segunda ul ul li a,
 .rd-terceira ul ul li a {
     color: black;
+    font-size: 12px;
+    font-weight: normal;
     text-decoration: none;
 }
 
