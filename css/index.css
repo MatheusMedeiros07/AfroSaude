@@ -8,15 +8,10 @@ body {
     margin: 0 120px;
 }
 
-main {
-    background-color: white;
-    height: 100vh;
-    width: 100%;
-}
-
 .cabecalho {
     display: flex;
     justify-content: space-between;
+    margin-top: 30px;
 }
 
 .cb-segunda ul {
@@ -82,7 +77,7 @@ main {
 .cb-primeira img {
     display: inline-block;
     position: relative;
-    width: 200px;
+    width: 250px;
     right: 0;
 }
 
