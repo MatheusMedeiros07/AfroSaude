@@ -10,49 +10,49 @@
     align-items: center;
 }
 
-.redes-sociais-imagem img {
+.rd-redes-sociais img {
     height: 2rem;
     width: 2rem;
 }
 
-.pt-cima {
+.rd-pt-cima {
     align-items: center;
     display: flex;
     justify-content: space-around;
     position: relative;
 }
 
-.pt-baixo p {
+.rd-pt-baixo p {
     text-align: center;
 }
 
-.primeira,
-.segunda,
-.terceira,
-.quarta {
+.rd-primeira,
+.rd-segunda,
+.rd-terceira,
+.rd-quarta {
     position: relative;
 }
 
-.primeira img {
+.rd-primeira img {
     display: inline-block;
     position: relative;
     width: 200px;
     right: 0;
 }
 
-.segunda ul ul li,
-.terceira ul ul li {
+.rd-segunda ul ul li,
+.rd-terceira ul ul li {
     list-style: none;
 }
 
-.segunda>ul::before,
-.terceira>ul::before {
+.rd-segunda>ul::before,
+.rd-terceira>ul::before {
     background-color: rgb(77, 40, 8);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     content: '';
     display: block;
-    height: 5px;
-    margin: 10px 0;
+    height: 3px;
+    margin: 10px 0 3px 0;
     width: 155px;
 }
