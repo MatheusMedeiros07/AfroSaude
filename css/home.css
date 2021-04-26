@@ -14,7 +14,7 @@
 }
 
 .mn-segunda {
-    background-image: url(../img/mulher_head.png));
+    background-image: url(../img/mulher_head.png);
     background-position: 30% 45%;
     background-size: cover;
     border-top: 15px solid rgba(189, 181, 181, 0.801);
@@ -22,5 +22,5 @@
     display: table;
     height: 100vh;
     width: 100%;
-    padding: 100px 0;
+    padding: auto;
 }
