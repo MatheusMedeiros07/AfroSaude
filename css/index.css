@@ -2,3 +2,57 @@
     margin: 0;
     padding: 0;
 }
+
+.rodape {
+    background-color: #a76c1a;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    align-items: center;
+}
+
+.redes-sociais-imagem img {
+    height: 2rem;
+    width: 2rem;
+}
+
+.pt-cima {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.pt-baixo p {
+    text-align: center;
+}
+
+.primeira,
+.segunda,
+.terceira,
+.quarta {
+    position: relative;
+}
+
+.primeira img {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    right: 0;
+}
+
+.segunda ul ul li,
+.terceira ul ul li {
+    list-style: none;
+}
+
+.segunda>ul::before,
+.terceira>ul::before {
+    background-color: rgb(77, 40, 8);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    content: '';
+    display: block;
+    height: 5px;
+    margin: 10px 0;
+    width: 155px;
+}
