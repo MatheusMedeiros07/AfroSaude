@@ -1,4 +1,82 @@
 * {
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+}
+
+header {
+    display: grid;
+    align-items: center;
+    background-color: sandybrown;
+    height: 20vh;
+    text-align: center;
+    width: 100%;
+}
+
+main {
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+}
+
+.rodape {
+    background-color: #a76c1a;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    align-items: center;
+}
+
+.rd-redes-sociais img {
+    height: 2rem;
+    width: 2rem;
+}
+
+.rd-pt-cima {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.rd-pt-baixo p {
+    text-align: center;
+}
+
+.rd-primeira,
+.rd-segunda,
+.rd-terceira,
+.rd-quarta {
+    position: relative;
+}
+
+.rd-primeira img {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    right: 0;
+}
+
+.rd-segunda ul ul li,
+.rd-terceira ul ul li {
+    list-style: none;
+}
+
+.rd-segunda ul ul li a,
+.rd-terceira ul ul li a {
+    color: black;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.rd-segunda>ul::before,
+.rd-terceira>ul::before {
+    background-color: rgb(77, 40, 8);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    content: '';
+    display: block;
+    height: 3px;
+    margin: 10px 0 5px 0;
+    width: 310px;
 }
