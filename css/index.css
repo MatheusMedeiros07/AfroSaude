@@ -45,6 +45,12 @@
     list-style: none;
 }
 
+.rd-segunda ul ul li a,
+.rd-terceira ul ul li a {
+    color: black;
+    text-decoration: none;
+}
+
 .rd-segunda>ul::before,
 .rd-terceira>ul::before {
     background-color: rgb(77, 40, 8);
@@ -53,6 +59,6 @@
     content: '';
     display: block;
     height: 3px;
-    margin: 10px 0 3px 0;
-    width: 155px;
+    margin: 10px 0 5px 0;
+    width: 310px;
 }
