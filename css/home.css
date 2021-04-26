@@ -3,7 +3,7 @@
 }
 
 .divisao-principal {
-    margin: 30px 0;
+    margin: 20px 0;
     width: 100%;
 }
 
@@ -14,13 +14,12 @@
 }
 
 .mn-segunda {
-    background-image: url(../img/mulher_head.png);
+    background-image: url(../img/medico.png);
     background-position: 30% 45%;
     background-size: cover;
-    border-top: 15px solid rgba(189, 181, 181, 0.801);
-    color: white;
+    border-radius: 35px;
     display: table;
-    height: 100vh;
+    height: 400px;
     width: 100%;
     padding: auto;
 }
