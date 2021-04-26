@@ -3,23 +3,23 @@
 }
 
 .divisao-principal {
-    margin: 20px 0;
+    margin: 45px 0;
     width: 100%;
 }
 
 .mn-primeira {
-    background-color: #FF9300;
+    background-color: #FFb24a;
     height: 400.53px;
     border-radius: 35.05px;
 }
 
 .mn-segunda {
     background-image: url(../img/medico.png);
-    background-position: 30% 45%;
+    background-position: 30% 49%;
     background-size: cover;
     border-radius: 35px;
     display: table;
-    height: 400px;
+    height: 440px;
     width: 100%;
     padding: auto;
 }
