@@ -24,6 +24,11 @@
     padding: auto;
 }
 
+#pt-cima-terceira,
+#pt-central-terceira {
+    color: #653a00;
+}
+
 #pt-cima-terceira p {
     font-size: 16px;
 }
@@ -33,7 +38,9 @@
 }
 
 #pt-baixo-terceira {
-    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
 }
 
 .trn-bloco-conteudo {
@@ -43,7 +50,7 @@
     display: inline-block;
     height: 390px;
     position: relative;
-    width: 400px;
+    width: 420px;
 }
 
 .trn-bloco-conteudo p {
