@@ -1,0 +1,248 @@
+.text-afro-venda {
+    margin-top: 100px;
+    
+    width: 690px;
+    height: 48px;
+    left: 160px;
+    top: 333px;
+
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+
+    color: #653A00;
+}
+
+.text-afro-saudeevoce {
+    
+width: 689.92px;
+height: 174.23px;
+left: 160px;
+top: 385px;
+
+font-family: Quicksand;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+
+color: #653A00;
+}
+
+.saibamais-retangulo {
+    position: absolute;
+    width: 200.27px;
+    height: 70.09px;
+    left: calc(50% - 200.27px/2 - 462.87px);
+    top: 750px;
+    
+    background: #FFFFFF;
+    border: 1.00133px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(4.00533px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 10.0133px;
+}
+
+.text-retangulo {
+
+width: 124.17px;
+height: 29.04px;
+left: 195.75px;
+top: 937.72px;
+
+font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 24.032px;
+line-height: 30px;
+/* identical to box height */
+
+text-align: center;
+
+color: #8B5000;
+}
+
+.imagem-medica {
+  
+    width: 1203px;
+    height: 501px;
+    right: 121px;
+    bottom: 2968px;
+    
+    background: url(medica.png);
+    border-radius: 35.0467px;
+}
+
+.principais-temas {
+width: 692.92px;
+height: 24.03px;
+left: 124.21px;
+top: 1087px;
+
+font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 16.0213px;
+line-height: 20px;
+
+color: #653A00;
+}
+
+
+.text-dentro-imagem {
+    position: absolute;
+    width: 690px;
+    height: 48px;
+    left: 158px;
+    top: 723px;
+    
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    
+    color: #653A00;
+}
+
+.conteudo-dentro-imagem {
+    position: absolute;
+width: 689.92px;
+height: 174.23px;
+left: 158px;
+top: 775px;
+
+font-family: Quicksand;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+
+color: #653A00;
+}
+
+.principais-temas-baixo {
+width: 997.33px;
+height: 55.07px;
+left: 124.21px;
+top: 1113.03px;
+
+font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 36.048px;
+line-height: 45px;
+
+color: #653A00;
+
+}
+
+.primeiro-retangulo {
+   
+width: 390px;
+height: 300px;
+left: 120px;
+top: 1183.5px;
+
+background: #F8F7F7;
+border-radius: 35px;
+}
+
+.segundo-retangulo {
+    position: absolute;
+width: 390px;
+height: 300px;
+left: 526px;
+top: 1041.5px;
+
+background: #F8F7F7;
+border-radius: 35px;
+}
+
+.terceiro-retangulo {
+    position: absolute;
+width: 390px;
+height: 300px;
+left: 931px;
+top: 1041.5px;
+
+background: #F8F7F7;
+border-radius: 35px;
+}
+
+.quarto-retangulo {
+   
+width: 390px;
+height: 300px;
+left: 120px;
+right: 190;
+top: 10px;
+margin-top: 15px;
+margin-bottom: 40px;
+
+background: #F8F7F7;
+border-radius: 35px;
+}
+
+.quinto-retangulo {
+    position: absolute;
+width: 390px;
+height: 300px;
+left: 526px;
+top: 18px;
+margin-top: 1340px;
+background: #F8F7F7;
+border-radius: 35px;
+}
+
+.sexto-retangulo {
+    position: absolute;
+width: 390px;
+height: 300px;
+left: 931px;
+top: 16px;
+margin-top: 1342px;
+
+background: #F8F7F7;
+border-radius: 35px;
+}
+
+.afro-conectar {
+    
+width: 692.92px;
+height: 24.03px;
+left: 122px;
+top: 1849px;
+
+font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 16.0213px;
+line-height: 20px;
+
+color: #653A00;
+
+}
+
+.afro-assine {
+   
+width: 997.33px;
+height: 55.07px;
+left: 122px;
+top: 1875.03px;
+
+font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 36.048px;
+line-height: 45px;
+
+color: #653A00;
+}
+
+
+
