@@ -29,26 +29,30 @@
 }
 
 #pt-cima-terceira,
-#pt-central-terceira {
+#pt-central-terceira,
+#pt-cima-quinta,
+#pt-central-quinta {
     color: #653a00;
 }
 
-#pt-cima-terceira p {
+#pt-cima-terceira p,
+#pt-cima-quinta p {
     font-size: 16px;
 }
 
-#pt-central-terceira h2 {
+#pt-central-terceira h2,
+#pt-central-quinta h2 {
     font-size: 35px;
 }
 
-#pt-baixo-terceira {
+#pt-baixo-terceira,
+#pt-baixo-quinta {
     display: flex;
     justify-content: space-between;
     margin: 20px 0;
 }
 
 .trn-bloco-conteudo {
-    background-color: #f8f7f7;
     border-radius: 35px;
     border-top: 68px solid;
     display: inline-block;
@@ -57,7 +61,36 @@
     width: 420px;
 }
 
-.trn-bloco-conteudo p {
+.mn-quarta {
+    background-image: url(../img/medica.png);
+}
+
+.qnt-bloco-conteudo {
+    background-color: #f8f7f7;
+    border-radius: 35px;
+    display: inline-block;
+    height: 390px;
+    position: relative;
+    width: 300px;
+}
+
+.qnt-pt-imagem {
+    background-image: url(../img/familia.png);
+    background-position: 45% 49%;
+    background-size: cover;
+    height: 458px;
+    width: 300px;
+}
+
+.qnt-pt-comunidade,
+.qnt-pt-vantagem,
+.qnt-pt-facilidade {
+    border-top: 68px solid;
+    background-color: #f8f7f7;
+}
+
+.trn-bloco-conteudo p,
+.qnt-bloco-conteudo p {
     color: white;
     font-size: 24px;
     left: 10%;
@@ -65,18 +98,17 @@
     top: -12%;
 }
 
-.pt-paciente {
+.trn-pt-paciente,
+.qnt-pt-comunidade {
     border-color: #fdb048;
 }
 
-.pt-profissional {
+.trn-pt-profissional,
+.qnt-pt-vantagem {
     border-color: #e88b00;
 }
 
-.pt-vantagem {
+.trn-pt-vantagem,
+.qnt-pt-facilidade {
     border-color: #653a00;
-}
-
-.mn-quarta {
-    background-image: url(../img/medica.png);
 }
