@@ -33,19 +33,23 @@
 #pt-cima-quinta,
 #pt-central-quinta,
 #pt-cima-sexta,
-#pt-central-sexta {
+#pt-central-sexta,
+#pt-cima-setima,
+#pt-central-setima {
     color: #653a00;
 }
 
 #pt-cima-terceira p,
 #pt-cima-quinta p,
-#pt-cima-sexta p {
+#pt-cima-sexta p,
+#pt-cima-setima p {
     font-size: 16px;
 }
 
 #pt-central-terceira h2,
 #pt-central-quinta h2,
-#pt-central-sexta h2 {
+#pt-central-sexta h2,
+#pt-central-setima h2 {
     font-size: 35px;
 }
 
@@ -155,4 +159,52 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     margin: 25px;
+}
+
+#pt-baixo-setima {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    position: relative;
+}
+
+.stm-bloco-blog {
+    border-radius: 35px;
+    background-color: #f8f7f7;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 390px;
+    width: 390px;
+}
+
+.stm-blog-img img {
+    border-radius: 35px;
+    max-height: 50%;
+    max-width: 100%;
+    position: absolute;
+}
+
+.stm-blog-txt {
+    padding-top: 20px;
+    position: relative;
+}
+
+.stm-blog-txt h4 {
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 15px;
+}
+
+.stm-blog-txt p {
+    font-size: 14px;
+    font-weight: lighter;
+    margin: 0 15px;
+}
+
+.stm-blog-txt a {
+    color: black;
+    position: absolute;
+    right: 10%;
+    bottom: 3%;
+    text-decoration: none;
 }
