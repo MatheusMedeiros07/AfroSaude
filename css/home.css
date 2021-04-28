@@ -14,14 +14,18 @@
     border-radius: 35.05px;
 }
 
-.mn-segunda {
-    background-image: url(../img/medico.png);
+.mn-segunda,
+.mn-quarta {
     background-position: 30% 49%;
     background-size: cover;
     border-radius: 35px;
     display: table;
     height: 440px;
     padding: auto;
+}
+
+.mn-segunda {
+    background-image: url(../img/medico.png);
 }
 
 #pt-cima-terceira,
@@ -71,4 +75,8 @@
 
 .pt-vantagem {
     border-color: #653a00;
+}
+
+.mn-quarta {
+    background-image: url(../img/medica.png);
 }
