@@ -1,0 +1,26 @@
+.tm-img{
+    background-position: 30% 49%;
+    background-size: cover;
+    display: table;
+    height: 180px;
+    box-shadow: -10xp -15xp 0xp rosybrown;
+    width: 50%;    
+    padding: auto;
+}
+
+.pf-igor{
+    background-image: url(../img/igor.png);
+}
+  
+.pf-arthur{
+    background-image: url(../img/arthur.png);
+    
+}
+.pf-caio{
+    background-image: url(../img/caio.png);
+    
+}
+.pf-leo{
+    background-image: url(../img/leo.png);
+}
+    
