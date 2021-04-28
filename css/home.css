@@ -1,5 +1,6 @@
 .main-container {
     background-color: #ffffff;
+    width: 100%;
 }
 
 .divisao-principal {
@@ -20,6 +21,47 @@
     border-radius: 35px;
     display: table;
     height: 440px;
-    width: 100%;
     padding: auto;
+}
+
+#pt-cima-terceira p {
+    font-size: 16px;
+}
+
+#pt-central-terceira h2 {
+    font-size: 35px;
+}
+
+#pt-baixo-terceira {
+    margin-top: 15px;
+}
+
+.trn-bloco-conteudo {
+    background-color: #f8f7f7;
+    border-radius: 35px;
+    border-top: 68px solid;
+    display: inline-block;
+    height: 390px;
+    position: relative;
+    width: 400px;
+}
+
+.trn-bloco-conteudo p {
+    color: white;
+    font-size: 24px;
+    left: 10%;
+    position: absolute;
+    top: -12%;
+}
+
+.pt-paciente {
+    border-color: #fdb048;
+}
+
+.pt-profissional {
+    border-color: #e88b00;
+}
+
+.pt-vantagem {
+    border-color: #653a00;
 }
