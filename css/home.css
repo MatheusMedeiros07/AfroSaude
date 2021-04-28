@@ -31,17 +31,21 @@
 #pt-cima-terceira,
 #pt-central-terceira,
 #pt-cima-quinta,
-#pt-central-quinta {
+#pt-central-quinta,
+#pt-cima-sexta,
+#pt-central-sexta {
     color: #653a00;
 }
 
 #pt-cima-terceira p,
-#pt-cima-quinta p {
+#pt-cima-quinta p,
+#pt-cima-sexta p {
     font-size: 16px;
 }
 
 #pt-central-terceira h2,
-#pt-central-quinta h2 {
+#pt-central-quinta h2,
+#pt-central-sexta h2 {
     font-size: 35px;
 }
 
@@ -111,4 +115,43 @@
 .trn-pt-vantagem,
 .qnt-pt-facilidade {
     border-color: #653a00;
+}
+
+#pt-baixo-sexta {
+    background-color: #f8f7f7;
+    border-radius: 35px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.sxt-primeiro-bloco {
+    display: flex;
+    align-items: center;
+}
+
+.sxt-primeiro-bloco h3 {
+    color: #323131;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.sxt-segundo-bloco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.sxt-segundo-bloco img {
+    width: 5rem;
+    height: 6rem;
+}
+
+.sxt-segundo-bloco p {
+    color: #323131;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin: 25px;
 }
