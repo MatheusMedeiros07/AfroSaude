@@ -1,0 +1,25 @@
+.main-container {
+    background-color: #ffffff;
+}
+
+.divisao-principal {
+    margin: 45px 0;
+    width: 100%;
+}
+
+.ap-primeira {
+    background-color: #FFb24a;
+    height: 400.53px;
+    border-radius: 35.05px;
+}
+
+.ap-segunda {
+    background-image: url(../img/mulher_head.png);
+    background-position: 30% 49%;
+    background-size: cover;
+    border-radius: 35px;
+    display: table;
+    height: 440px;
+    width: 100%;
+    padding: auto;
+}
