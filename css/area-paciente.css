@@ -24,6 +24,36 @@
     padding: auto;
 }
 
+.p-ap-primeira {
+    display: block;
+    color: #ffffff;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.h1-ap-primeira {
+    display: block;
+    color: #ffffff;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.text-3xl {
+    font-size: 1.875rem;
+}
+.font-bold {
+    font-weight: 700;
+}
 .py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
@@ -56,22 +86,44 @@ div {
 .container {
     width: 100%;
 }
-p {
-    display: block;
-    color: #ffffff;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-h1 {
-    display: block;
-    color: #ffffff;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+
+#pt-cima-terceira p {
+    font-size: 16px;
 }
 
+#pt-central-terceira h2 {
+    font-size: 35px;
+}
+
+#pt-baixo-terceira {
+    margin-top: 15px;
+}
+.trn-bloco-conteudo {
+    background-color: #f8f7f7;
+    border-radius: 35px;
+    border-top: 68px solid;
+    display: inline-block;
+    height: 390px;
+    position: relative;
+    width: 400px;
+}
+
+.trn-bloco-conteudo p {
+    color: white;
+    font-size: 24px;
+    left: 10%;
+    position: absolute;
+    top: -12%;
+}
+
+.pt-paciente {
+    border-color: #fdb048;
+}
+
+.pt-profissional {
+    border-color: #e88b00;
+}
+
+.pt-vantagem {
+    border-color: #653a00;
+}
