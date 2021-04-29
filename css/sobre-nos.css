@@ -1,11 +1,21 @@
+.alin{
+    text-align: left;
+	margin: 350px 0 0 0;
+    font-size: 35px; 
+    color: #653a00;
+    
+}
+
 .tm-img{
     background-position: 30% 49%;
     background-size: cover;
     display: table;
-    height: 180px;
-    box-shadow: -10xp -15xp 0xp rosybrown;
-    width: 50%;    
+    height: 278px;
+    border-radius: 50%;
+    box-shadow: -10px -5px 5px #ff9300;
+    width: 278px;    
     padding: auto;
+    
 }
 
 .pf-igor{
@@ -23,4 +33,5 @@
 .pf-leo{
     background-image: url(../img/leo.png);
 }
+
     
