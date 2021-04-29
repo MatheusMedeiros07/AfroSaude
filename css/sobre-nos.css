@@ -1,37 +1,33 @@
-.alin{
+.alin {
     text-align: left;
-	margin: 350px 0 0 0;
-    font-size: 35px; 
+    margin: 350px 0 0 0;
+    font-size: 35px;
     color: #653a00;
-    
 }
 
-.tm-img{
+.tm-img {
     background-position: 30% 49%;
     background-size: cover;
     display: table;
     height: 278px;
     border-radius: 50%;
     box-shadow: -10px -5px 5px #ff9300;
-    width: 278px;    
+    width: 278px;
     padding: auto;
-    
 }
 
-.pf-igor{
+.pf-igor {
     background-image: url(../img/igor.png);
 }
-  
-.pf-arthur{
+
+.pf-arthur {
     background-image: url(../img/arthur.png);
-    
 }
-.pf-caio{
-    background-image: url(../img/caio.png);
-    
-}
-.pf-leo{
+
+.pf-leo {
     background-image: url(../img/leo.png);
 }
 
-    
+.pf-caio {
+    background-image: url(../img/caio.png);
+}
