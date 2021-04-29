@@ -1,6 +1,30 @@
-.alin{
-    text-align: left;
-	margin: 350px 0 0 0;
+.main-cont {
+    background-color: #ffffff;
+    width: 100%;
+}
+.div-principal {
+    margin: 45px 0;
+    width: 100%;
+}
+
+.img-topo,
+.text-titulo {
+    background-position: 30% 49%;
+    background-size: cover;
+    border-radius: 35px;
+    display: table;
+    height: 440px;
+    padding: auto;
+    
+}
+
+.img-topo {
+    background-image: url(../img/medico.png);
+    
+}
+
+#texto-sobre{
+	margin: 320px 0 0 30px;
     font-size: 35px; 
     color: #653a00;
     
@@ -34,4 +58,16 @@
     background-image: url(../img/leo.png);
 }
 
+#tt-img{
+    font-size: 18px;    
+    justify-content: space-around;
+    display: flex;
+    margin: 10px 0;    
+}
+
+#desc-img{
+    font-size: 14px;
+    
+    
+}
     
