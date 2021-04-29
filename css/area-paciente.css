@@ -13,15 +13,18 @@
     border-radius: 35.05px;
 }
 
-.ap-segunda {
-    background-image: url(../img/mulher_head.png);
+.ap-segunda,
+.ap-quarta {
     background-position: 30% 49%;
     background-size: cover;
     border-radius: 35px;
     display: table;
     height: 440px;
-    width: 100%;
     padding: auto;
+}
+
+.ap-segunda {
+    background-image: url(../img/mulher_head.png);
 }
 
 .p-ap-primeira {
@@ -87,17 +90,38 @@ div {
     width: 100%;
 }
 
-#pt-cima-terceira p {
+#ap-cima-terceira,
+#ap-central-terceira,
+#ap-cima-quinta,
+#ap-central-quinta,
+#ap-cima-sexta,
+#ap-central-sexta,
+#ap-cima-setima,
+#ap-central-setima {
+    color: #653a00;
+}
+
+#ap-cima-terceira p,
+#ap-cima-quinta p,
+#ap-cima-sexta p,
+#ap-cima-setima p {
     font-size: 16px;
 }
 
-#pt-central-terceira h2 {
+#ap-central-terceira h2,
+#ap-central-quinta h2,
+#ap-central-sexta h2,
+#ap-central-setima h2 {
     font-size: 35px;
 }
 
-#pt-baixo-terceira {
-    margin-top: 15px;
+#ap-baixo-terceira,
+#ap-baixo-quinta {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
 }
+
 .trn-bloco-conteudo {
     background-color: #f8f7f7;
     border-radius: 35px;
@@ -105,7 +129,31 @@ div {
     display: inline-block;
     height: 390px;
     position: relative;
-    width: 400px;
+    width: 420px;
+}
+
+.qnt-bloco-conteudo {
+    background-color: #f8f7f7;
+    border-radius: 35px;
+    display: inline-block;
+    height: 390px;
+    position: relative;
+    width: 300px;
+}
+
+.qnt-pt-imagem {
+    background-image: url(../img/familia.png);
+    background-position: 45% 49%;
+    background-size: cover;
+    height: 458px;
+    width: 300px;
+}
+
+.qnt-pt-comunidade,
+.qnt-pt-vantagem,
+.qnt-pt-facilidade {
+    border-top: 68px solid;
+    background-color: #f8f7f7;
 }
 
 .trn-bloco-conteudo p {
@@ -116,14 +164,102 @@ div {
     top: -12%;
 }
 
-.pt-paciente {
+.trn-ap-paciente {
     border-color: #fdb048;
 }
 
-.pt-profissional {
+.trn-ap-profissional {
     border-color: #e88b00;
 }
 
-.pt-vantagem {
+.trn-ap-vantagem {
     border-color: #653a00;
 }
+
+#ap-baixo-sexta {
+    background-color: #f8f7f7;
+    border-radius: 35px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.sxt-primeiro-bloco {
+    display: flex;
+    align-items: center;
+}
+
+.sxt-primeiro-bloco h3 {
+    color: #323131;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.sxt-segundo-bloco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.sxt-segundo-bloco img {
+    width: 5rem;
+    height: 6rem;
+}
+
+.sxt-segundo-bloco p {
+    color: #323131;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin: 25px;
+}
+
+#ap-baixo-quinta {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    position: relative;
+}
+
+.stm-bloco-blog {
+    border-radius: 35px;
+    background-color: #f8f7f7;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 390px;
+    width: 390px;
+}
+
+.stm-blog-img img {
+    border-radius: 35px;
+    max-height: 50%;
+    max-width: 100%;
+    position: absolute;
+}
+
+.stm-blog-txt {
+    padding-top: 20px;
+    position: relative;
+}
+
+.stm-blog-txt h4 {
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 15px;
+}
+
+.stm-blog-txt p {
+    font-size: 14px;
+    font-weight: lighter;
+    margin: 0 15px;
+}
+
+.stm-blog-txt a {
+    color: black;
+    position: absolute;
+    right: 10%;
+    bottom: 3%;
+    text-decoration: none;
+}
+
