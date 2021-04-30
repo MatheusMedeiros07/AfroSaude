@@ -244,5 +244,40 @@ line-height: 45px;
 color: #653A00;
 }
 
+#pt-baixo-terceira{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
 
+.trn-bloco-conteudo {
+    background-color: #f8f7f7;
+    border-radius: 35px;
+    border-top: 68px solid;
+    display: inline-block;
+    height: 625px;
+    position: relative;
+    width: 390px;
+}
+
+.trn-bloco-conteudo p {
+    color: white;
+    font-size: 24px;
+    left: 29%;
+    position: absolute;
+    top: -8%;
+}
+
+.trn-pt-basico{
+    border-color: #fdb048;
+}
+
+.trn-pt-premium{
+    border-color: #e88b00;
+}
+
+.trn-pt-premium-anual
+ {
+    border-color: #e88b00;
+}
 
