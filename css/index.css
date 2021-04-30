@@ -8,6 +8,11 @@ body {
     margin: 0 120px;
 }
 
+.main-container {
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
 .cabecalho {
     display: flex;
     justify-content: space-between;
@@ -105,4 +110,10 @@ body {
     height: 3px;
     margin: 10px 0 5px 0;
     width: 310px;
+}
+
+@media (min-width: 60px) and (max-width: 4400px) {
+    .main-container {
+        width: 1300px;
+    }
 }
