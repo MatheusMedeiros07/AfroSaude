@@ -106,3 +106,9 @@ body {
     margin: 10px 0 5px 0;
     width: 310px;
 }
+
+@media (min-width: 600px) and (max-width: 4400px) {
+    .main-container {
+        width: 750px;
+    }
+}
