@@ -112,8 +112,14 @@ body {
     width: 310px;
 }
 
+<<<<<<< HEAD
 @media (min-width: 60px) and (max-width: 4400px) {
     .main-container {
         width: 1300px;
+=======
+@media (min-width: 600px) and (max-width: 4400px) {
+    .main-container {
+        width: 750px;
+>>>>>>> 66be0bd06bf55e344cf670142cf6565fd073cbf8
     }
 }
