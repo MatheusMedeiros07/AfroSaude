@@ -1,6 +1,5 @@
 .main-container {
     background-color: #ffffff;
-    width: 100%;
 }
 
 .divisao-principal {
@@ -22,7 +21,6 @@
     display: table;
     height: 440px;
     padding: auto;
-    
 }
 
 .mn-segunda {
@@ -208,4 +206,10 @@
     right: 10%;
     bottom: 3%;
     text-decoration: none;
+}
+
+@media (min-width: 1560px) and (max-width: 4400px) {
+    .main-container {
+        width: 750px;
+    }
 }
