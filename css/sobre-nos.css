@@ -1,7 +1,3 @@
-.main-cont {
-    background-color: #ffffff;
-    width: 100%;
-}
 .div-principal {
     margin: 45px 0;
     width: 100%;
@@ -15,17 +11,15 @@
     display: table;
     height: 440px;
     padding: auto;
-    
 }
 
 .img-topo {
     background-image: url(../img/medico.png);
-    
 }
 
-#texto-sobre{
-	margin: 320px 0 0 30px;
-    font-size: 35px; 
+#texto-sobre {
+    margin: 320px 0 0 30px;
+    font-size: 35px;
     color: #653a00;
 }
 
@@ -39,8 +33,6 @@
     width: 278px;
     padding: auto;
 }
-
-
 
 .pf-arthur {
     background-image: url(../img/arthur.png);
@@ -58,16 +50,13 @@
     background-image: url(../img/caio.png);
 }
 
-#tt-img{
-    font-size: 18px;    
+#tt-img {
+    font-size: 18px;
     justify-content: space-around;
     display: flex;
-    margin: 10px 0;    
+    margin: 10px 0;
 }
 
-#desc-img{
+#desc-img {
     font-size: 14px;
-    
-    
 }
-    
