@@ -14,8 +14,8 @@
 </head>
 
 <body>
-    <header>
-        <nav class="cabecalho">
+    <header id="cabecalho-container">
+        <nav class="cabecalho" href="javascript:void(0)">
             <div class="divisao-cabecalho cb-primeira">
                 <a href="index.html"><img src="./img/Logo - AfroSaúde/HORIZONTAL/HORIZONTAL_COLOR.png" alt="logo-cabeçalho"></a>
             </div>
@@ -157,7 +157,7 @@
         </nav>
     </main>
 
-    <footer style="margin: 0 -125px;background-color: #ffb24a;">
+    <footer>
         <nav class="rodape">
             <div class=" rd-pt-cima ">
                 <div class="divisao-rodape rd-primeira ">
@@ -192,11 +192,29 @@
                     </div>
                 </div>
             </div>
-            <div class="rd-pt-baixo ">
-                <p>Alameda Salvador, 1087, Caminho das Árvores - Salvador Shopping Business (Torre América), sala 911 - Salvador-BA</p>
+            <div class="rd-pt-baixo">
+                <address class="rodape-endereco">Alameda Salvador, 1087, Caminho das Árvores - Salvador Shopping Business (Torre América), sala 911 - Salvador-BA</address>
             </div>
         </nav>
     </footer>
+
+    <!-- <script>
+        window.onscroll = function() {
+            myFunction()
+        };
+
+        var navbar = document.getElementById("cabecalho-container");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script> -->
+
 </body>
 
 </html>

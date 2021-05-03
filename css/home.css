@@ -19,7 +19,7 @@
     background-position: 30% 49%;
     background-size: cover;
     border-radius: 35px;
-    display: table;
+    display: flex;
     height: 440px;
     padding: auto;
 }
@@ -67,7 +67,7 @@
     display: inline-block;
     height: 390px;
     position: relative;
-    width: 420px;
+    width: 33%;
 }
 
 .mn-quarta {
@@ -80,7 +80,7 @@
     display: inline-block;
     height: 390px;
     position: relative;
-    width: 300px;
+    width: 24%;
 }
 
 .qnt-pt-imagem {
@@ -162,9 +162,10 @@
 }
 
 #pt-baixo-setima {
-    display: flex;
-    justify-content: space-between;
     align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     position: relative;
 }
 
@@ -207,4 +208,65 @@
     right: 10%;
     bottom: 3%;
     text-decoration: none;
+}
+
+@media (max-width: 1269px) {}
+
+@media (max-width: 760px) {
+    .mn-segunda,
+    .mn-quarta {
+        margin-left: 4rem;
+        background-position: right;
+        justify-content: space-around;
+        width: 80vw;
+    }
+    .trn-bloco-conteudo {
+        width: 90vw;
+        margin: 1.7rem 0;
+    }
+    .qnt-bloco-conteudo {
+        width: 100%;
+    }
+    #pt-baixo-quinta {
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-areas: "cima" "baixo";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin: 0 1.3rem;
+    }
+    .qnt-pt-imagem {
+        grid-column: 1/2;
+        grid-row: 1/1;
+    }
+    .qnt-pt-comunidade {
+        grid-column: 2/3;
+        grid-row: 1/1;
+    }
+    .qnt-pt-vantagem {
+        grid-column: 1/2;
+        grid-row: 2/2;
+    }
+    .qnt-pt-facilidade {
+        grid-column: 2/3;
+        grid-row: 2/2;
+    }
+    #pt-baixo-terceira {
+        align-items: center;
+        flex-direction: column;
+    }
+    .rodape {
+        height: 110vh;
+    }
+    .rd-pt-cima {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .divisao-rodape {
+        margin: 25px 0;
+    }
+    .rodape-endereco {
+        font-size: 1rem;
+    }
 }
