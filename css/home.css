@@ -9,9 +9,19 @@
 }
 
 .mn-primeira {
+    border-radius: 35.05px;
+    display: grid;
+    grid-template-columns: .5fr .75fr .75fr 1fr;
+    grid-template-rows: 1fr 1fr;
     background-color: #FFb24a;
     height: 400.53px;
-    border-radius: 35.05px;
+    padding: 10px 5px;
+}
+
+.mn-conteudo-bloco-primeira {
+    background-color: white;
+    grid-column-start: 2;
+    grid-column-end: 2;
 }
 
 .mn-segunda,
