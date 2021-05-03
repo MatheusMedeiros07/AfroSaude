@@ -13,19 +13,52 @@
     border-radius: 35.05px;
 }
 
-.ap-segunda,
-.ap-quarta {
-    background-position: 30% 49%;
+.ap-segunda {
+    background-position: 30% 0%;
     background-size: cover;
     border-radius: 35px;
     display: table;
-    height: 440px;
+    height: 661px;
     padding: auto;
 }
 
 .ap-segunda {
     background-image: url(../img/mulher_head.png);
 }
+
+.ap-container-txt {
+    position: absolute;
+    width: 523px;
+    height: 272px;
+    left: 173px;
+    top: 683px;
+    background-color: #FFb24a;
+    border-radius: 35.05px;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.ap-txt-h1,
+.ap-txt-p
+ { 
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+.ap-txt-h1 { 
+    font-size: 36px;
+    line-height: 45px;
+}
+
+.ap-txt-p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
 
 .p-ap-primeira {
     display: block;
@@ -262,4 +295,6 @@ div {
     bottom: 3%;
     text-decoration: none;
 }
+
+
 
