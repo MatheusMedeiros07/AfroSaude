@@ -50,6 +50,20 @@
     background-image: url(../img/caio.png);
 }
 
+.cne.txt {
+    padding-top: 20px;
+    position: relative;
+}
+
+.fotos-equipe{
+     
+    display: flex;
+    flex-wrap: wrap;
+    height: 390px;   
+    width: auto;
+        
+}
+
 #tt-img {
     font-size: 18px;
     justify-content: space-around;
