@@ -19,7 +19,38 @@
     border-radius: 35px;
     display: table;
     height: 661px;
-    padding: auto;
+    padding: 50px;
+
+    display: grid;
+    grid-template-columns: 1fr .85fr 1fr 1fr;
+    grid-template-rows: .85fr 1fr;
+    background-color: #FFb24a;
+}
+
+.ap-conteudo-bloco-primeira {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #FFb24a;
+    border-radius: 35.05px;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.ap-conteudo-bloco-segunda {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    align-self: flex-end;
+    padding-bottom: 30px;
+}
+
+.ap-conteudo-bloco-segunda > button {
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 70px;
+    color: #8b5000;
+    border: 2px solid #a07438;
 }
 
 .ap-segunda {
@@ -55,7 +86,8 @@
 }
 
 .ap-txt-p {
-    font-size: 20px;
+    margin-top: 10px;
+    font-size: 24px;
     line-height: 30px;
 }
 
