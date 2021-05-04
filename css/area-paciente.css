@@ -318,3 +318,40 @@ div {
     bottom: 3%;
     text-decoration: none;
 }
+
+@media (max-width: 760px) {
+    .ap-segunda,
+    .ap-quarta {
+        margin-left: 4rem;
+        background-position: right;
+        justify-content: space-around;
+        width: 80vw;
+    }
+
+    .trn-bloco-conteudo {
+        width: 90vw;
+        margin: 1.7rem 0;
+    }
+
+    .qnt-bloco-conteudo {
+        width: 100%;
+    }
+    #ap-baixo-terceira {
+        align-items: center;
+        flex-direction: column;
+    }
+    .rodape {
+        height: 110vh;
+    }
+    .rd-pt-cima {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .divisao-rodape {
+        margin: 25px 0;
+    }
+    .rodape-endereco {
+        font-size: 1rem;
+    }
+}
