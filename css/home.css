@@ -139,8 +139,8 @@
 .qnt-bloco-conteudo {
     background-color: #f8f7f7;
     border-radius: 35px;
-    display: inline-block;
-    height: 390px;
+    display: flex;
+    height: auto;
     position: relative;
     width: 24%;
 }
@@ -187,8 +187,7 @@
 #pt-baixo-sexta {
     background-color: #f8f7f7;
     border-radius: 35px;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
+    display: flex;
 }
 
 .sxt-primeiro-bloco {
