@@ -333,13 +333,13 @@ color: #653A00;
 .semestral-basico {
     margin-top: 20px;
     text-align: center;
-    color: black;
+    color: #653A00;
 }
 
 .basico-preco {
     margin-top: 18px;
     text-align: center;
-    color: black;
+    color: #653A00;
 }
 
 .basico ,
@@ -353,7 +353,7 @@ color: #653A00;
     font-weight: bold;
     font-size: 16.0213px;
     line-height: 20px;
-    color: black;
+    color: #653A00;
 }
 
 .membro-basico {
@@ -376,20 +376,20 @@ font-size: 15px;
 line-height: 18px;
 margin-left: 29.60%;
 margin-top: 35px;
-color: #000000;
+color: #653A00;
 }
 
 
 .semestral-semestre {
     margin-top: 20px;
     text-align: center;
-    color: black;
+    color: #653A00;
 }
 
 .semestral-preco {
     margin-top: 20px;
     text-align: center;
-    color: black;
+    color: #653A00;
 }
 
 .cancelar-basico {
@@ -404,7 +404,7 @@ line-height: 18px;
 margin-left: 35%;
 margin-top: 5px;
 text-align: center;
-color: #000000;
+color: #653A00;
 }
 
 
@@ -423,7 +423,7 @@ color: #000000;
     font-weight: bold;
     font-size: 16.0213px;
     line-height: 20px;
-    color: black;
+    color: #653A00;
 }
 
 .membro-semestre {
@@ -446,7 +446,7 @@ font-size: 15px;
 line-height: 18px;
 margin-left: 29.60%;
 margin-top: 35px;
-color: #000000;
+color: #653A00;
 }
 
 .cancelar-semestre {
@@ -461,19 +461,19 @@ color: #000000;
     margin-left: 35%;
     margin-top: 5px;
     text-align: center;
-    color: #000000;
+    color: #653A00;
     }
 
 .anual-premium {
     margin-top: 20px;
     text-align: center;
-    color: black;
+    color: #653A00;
 }
 
 .anual-preco {
     margin-top: 20px;
     text-align: center;
-    color: black;
+    color: #653A00;
 }
 
 .anual,
@@ -491,7 +491,7 @@ color: #000000;
     font-weight: bold;
     font-size: 16.0213px;
     line-height: 20px;
-    color: black
+    color: #653A00;
 }
 
 .membro-anual{
@@ -514,7 +514,7 @@ font-size: 15px;
 line-height: 18px;
 margin-left: 29.60%;
 margin-top: 35px;
-color: #000000;
+color: #653A00;
 }
 
 .cancelar-anual {
@@ -529,9 +529,10 @@ color: #000000;
     margin-left: 35%;
     margin-top: 5px;
     text-align: center;
-    color: #000000;
+    color: #653A00;
     }
 
     li {
         margin-left: 65px;
+        color: #653A00;
     }
