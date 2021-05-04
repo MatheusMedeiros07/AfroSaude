@@ -84,6 +84,13 @@ figcaption p {
     color: #653a00;
 }
 
+.cne-p-sobre,
 .cne-p {
-    color: #653a00;  
+    color: #653a00;
+    
+
+}
+
+.cne-p-sobre{
+    font-size: 18px;
 }
