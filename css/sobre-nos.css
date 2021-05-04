@@ -81,4 +81,9 @@ figcaption p {
     font-weight: bolder;
     margin: 5px 0;
     text-align: center;
+    color: #653a00;
+}
+
+.cne-p {
+    color: #653a00;  
 }
