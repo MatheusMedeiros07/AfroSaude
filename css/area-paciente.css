@@ -1,12 +1,3 @@
-.main-container {
-    background-color: #ffffff;
-}
-
-.divisao-principal {
-    margin: 45px 0;
-    width: 100%;
-}
-
 .ap-primeira {
     background-color: #FFb24a;
     height: 400.53px;
@@ -17,14 +8,11 @@
     background-position: 30% 0%;
     background-size: cover;
     border-radius: 35px;
-    display: table;
-    height: 661px;
-    padding: 50px;
-
+    box-sizing: border-box;
     display: grid;
     grid-template-columns: 1fr .85fr 1fr 1fr;
     grid-template-rows: .85fr 1fr;
-    background-color: #FFb24a;
+    height: 661px;
 }
 
 .ap-conteudo-bloco-primeira {
@@ -44,7 +32,7 @@
     padding-bottom: 30px;
 }
 
-.ap-conteudo-bloco-segunda > button {
+.ap-conteudo-bloco-segunda>button {
     border: none;
     border-radius: 10px;
     width: 200px;
@@ -70,8 +58,7 @@
 }
 
 .ap-txt-h1,
-.ap-txt-p
- { 
+.ap-txt-p {
     font-family: Quicksand;
     font-style: normal;
     font-weight: 500;
@@ -80,7 +67,7 @@
     color: #FFFFFF;
 }
 
-.ap-txt-h1 { 
+.ap-txt-h1 {
     font-size: 36px;
     line-height: 45px;
 }
@@ -90,7 +77,6 @@
     font-size: 24px;
     line-height: 30px;
 }
-
 
 .p-ap-primeira {
     display: block;
@@ -119,9 +105,11 @@
 .text-3xl {
     font-size: 1.875rem;
 }
+
 .font-bold {
     font-weight: 700;
 }
+
 .py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
@@ -130,10 +118,12 @@
 .max-w-9xl {
     max-width: 96rem;
 }
+
 .mx-auto {
     margin-left: auto;
     margin-right: auto;
 }
+
 .rounded-3xl {
     border-radius: 1.5rem;
 }
@@ -146,6 +136,7 @@ div {
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
 .mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -327,6 +318,3 @@ div {
     bottom: 3%;
     text-decoration: none;
 }
-
-
-
