@@ -171,8 +171,7 @@ div {
     font-size: 35px;
 }
 
-#ap-baixo-terceira,
-#ap-baixo-quinta {
+#ap-baixo-terceira {
     display: flex;
     justify-content: space-between;
     margin: 20px 0;
@@ -191,10 +190,10 @@ div {
 .qnt-bloco-conteudo {
     background-color: #f8f7f7;
     border-radius: 35px;
-    display: inline-block;
-    height: 390px;
+    display: flex;
+    height: auto;
     position: relative;
-    width: 300px;
+    width: 24%;
 }
 
 .qnt-pt-imagem {
@@ -235,8 +234,7 @@ div {
 #ap-baixo-sexta {
     background-color: #f8f7f7;
     border-radius: 35px;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
+    display: flex;
 }
 
 .sxt-primeiro-bloco {
@@ -271,12 +269,14 @@ div {
     margin: 25px;
 }
 
-#ap-baixo-quinta {
-    display: flex;
-    justify-content: space-between;
+#ap-baixo-setima {
     align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     position: relative;
 }
+
 
 .stm-bloco-blog {
     border-radius: 35px;

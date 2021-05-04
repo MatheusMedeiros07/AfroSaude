@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/area-paciente.css">
@@ -87,19 +90,65 @@
                 </div>
             </section>
             <section class="divisao-principal ap-quarta">
-                <div id="ap-cima-sexta">
+                <div id="pt-cima-sexta">
                     <p>Trabalhamos para</p>
                 </div>
-                <div id="ap-central-sexta">
+                <div id="pt-central-sexta">
                     <h2>Quem usa aprova</h2>
                 </div>
                 <div id="ap-baixo-sexta">
-                    <div class="sxt-primeiro-bloco">
-                        <h3>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore”</h3>
-                    </div>
-                    <div class="sxt-segundo-bloco">
-                        <img src="./img/sem_foto.png" alt="Rosto do cliente">
-                        <p>Nemo enim ipsam</p>
+                    <div class="container">
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="sxt-primeiro-bloco">
+                                        <h3>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore”</h3>
+                                    </div>
+                                    <div class="sxt-segundo-bloco">
+                                        <img src="./img/sem_foto.png" alt="Rosto do cliente">
+                                        <p>Nemo enim ipsam</p>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="sxt-primeiro-bloco">
+                                        <h3>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore”</h3>
+                                    </div>
+                                    <div class="sxt-segundo-bloco">
+                                        <img src="./img/sem_foto.png" alt="Rosto do cliente">
+                                        <p>Nemo enim ipsam</p>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="sxt-primeiro-bloco">
+                                        <h3>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore”</h3>
+                                    </div>
+                                    <div class="sxt-segundo-bloco d-block w-100">
+                                        <img src="./img/sem_foto.png" alt="Rosto do cliente">
+                                        <p>Nemo enim ipsam</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Left and right controls -->
+                            <a style="visibility: hidden;" class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                <span class="sr-only">Próximo</span>
+                            </a>
+                            <a style="visibility: hidden;" class="right carousel-control" href="#myCarousel" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                <span class="sr-only">Anterior</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -113,7 +162,7 @@
                     <h2>Blog da AfroSaúde</h2>
                 </div>
 
-                <div id="ap-baixo-quinta">
+                <div id="ap-baixo-setima">
 
                     <div class="stm-bloco-blog">
                         <div class="stm-blog-img">
