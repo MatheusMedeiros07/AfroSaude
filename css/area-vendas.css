@@ -66,17 +66,62 @@ text-align: center;
 color: #8B5000;
 }
 
-.imagem-medica {
-  
-    width: 1203px;
-    height: 501px;
-    right: 121px;
-    bottom: 2968px;
-    
-    
-    background-image: url(../img/medica.png);
-    border-radius: 35.0467px;
+.ap-segunda {
+    background-size: cover;
+    display: table;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
 }
+
+.ap-conteudo-bloco-primeira {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-radius: 35.05px;
+    box-sizing: border-box;
+}
+
+.ap-conteudo-bloco-segunda {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.ap-conteudo-bloco-segunda>button {
+    border: 2px solid #a07438;
+    border-radius: 20px;
+    color: #8b5000;
+    margin-top: 4rem;
+    height: 70px;
+    width: 200px;
+}
+
+.ap-txt-h1,
+.ap-txt-p {
+    color: #8b5000;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 45px;
+    margin-top: 10px;
+}
+
+.ap-txt-h1 {
+    font-size: 36px;
+    line-height: 45px;
+}
+
+.ap-txt-p,
+.ap-conteudo-bloco-segunda>button {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.mn-segunda {
+    background-image: url(../img/medica.png);
+}
+
 
 .principais-temas {
 width: 692.92px;
@@ -488,5 +533,5 @@ color: #000000;
     }
 
     li {
-        margin-left: 50px;
+        margin-left: 65px;
     }
