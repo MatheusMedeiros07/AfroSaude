@@ -36,7 +36,7 @@ color: #653A00;
     width: 200.27px;
     height: 70.09px;
     left: calc(50% - 200.27px/2 - 462.87px);
-    top: 750px;
+    top: 918px;
     
     background: #FFFFFF;
     border: 1.00133px solid #FFFFFF;
@@ -73,7 +73,8 @@ color: #8B5000;
     right: 121px;
     bottom: 2968px;
     
-    background: url(medica.png);
+    
+    background-image: url(../img/medica.png);
     border-radius: 35.0467px;
 }
 
@@ -258,6 +259,8 @@ color: #653A00;
     height: 625px;
     position: relative;
     width: 390px;
+    text-decoration: none;
+    
 }
 
 .trn-bloco-conteudo p {
@@ -270,6 +273,7 @@ color: #653A00;
 
 .trn-pt-basico{
     border-color: #fdb048;
+    margin-bottom: 30px;
 }
 
 .trn-pt-premium{
@@ -281,3 +285,208 @@ color: #653A00;
     border-color: #e88b00;
 }
 
+.semestral-basico {
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+}
+
+.basico-preco {
+    margin-top: 18px;
+    text-align: center;
+    color: black;
+}
+
+.basico ,
+.basico2,
+.basico3,
+.basico4 {
+    text-align: left;
+    margin-top: 7%;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16.0213px;
+    line-height: 20px;
+    color: black;
+}
+
+.membro-basico {
+    margin-top: 30px;
+    margin-left: 22%;
+    width: 236px;
+    height: 30px;
+    background: #F4AA28;
+    border-radius: 15px;
+}
+
+.texto-basico {
+position: absolute;
+width: 230px;
+height: 15px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+margin-left: 29.60%;
+margin-top: 35px;
+color: #000000;
+}
+
+
+.semestral-semestre {
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+}
+
+.semestral-preco {
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+}
+
+.cancelar-basico {
+width: 140px;
+height: 21px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 18px;
+margin-left: 35%;
+margin-top: 5px;
+text-align: center;
+color: #000000;
+}
+
+
+.semestral,
+.semestral2,
+.semestral3,
+.semestral4,
+.semestral5,
+.semestral6,
+.semestral7,
+.semestral8 {
+    text-align: left;
+    margin-top: 8%;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16.0213px;
+    line-height: 20px;
+    color: black;
+}
+
+.membro-semestre {
+    margin-top: 30px;
+    margin-left: 22%;
+    width: 236px;
+    height: 30px;
+    background: #F4AA28;
+    border-radius: 15px;
+}
+
+.texto-semestre {
+position: absolute;
+width: 230px;
+height: 15px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+margin-left: 29.60%;
+margin-top: 35px;
+color: #000000;
+}
+
+.cancelar-semestre {
+    width: 140px;
+    height: 21px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 18px;
+    margin-left: 35%;
+    margin-top: 5px;
+    text-align: center;
+    color: #000000;
+    }
+
+.anual-premium {
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+}
+
+.anual-preco {
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+}
+
+.anual,
+.anual2,
+.anual3,
+.anual4,
+.anual5,
+.anual6,
+.anual7,
+.anual8 {
+    text-align: left;
+    margin-top: 8%;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16.0213px;
+    line-height: 20px;
+    color: black
+}
+
+.membro-anual{
+    margin-top: 30px;
+    margin-left: 22%;
+    width: 236px;
+    height: 30px;
+    background: #F4AA28;
+    border-radius: 15px;
+}
+
+.texto-anual {
+position: absolute;
+width: 230px;
+height: 15px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+margin-left: 29.60%;
+margin-top: 35px;
+color: #000000;
+}
+
+.cancelar-anual {
+    width: 140px;
+    height: 21px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 18px;
+    margin-left: 35%;
+    margin-top: 5px;
+    text-align: center;
+    color: #000000;
+    }
+
+    li {
+        margin-left: 50px;
+    }
