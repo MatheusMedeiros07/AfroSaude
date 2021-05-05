@@ -188,33 +188,30 @@ color: #653A00;
 }
 
 .primeiro-retangulo {
-   
-width: 390px;
-height: 300px;
-left: 120px;
-top: 1183.5px;
-
-background: #F8F7F7;
-border-radius: 35px;
+    width: 390px;
+    height: 300px;
+    left: 536px;
+    top: 1065.5px;
+    background: #F8F7F7;
+    border-radius: 35px;
 }
 
 .segundo-retangulo {
     position: absolute;
-width: 390px;
-height: 300px;
-left: 526px;
-top: 1041.5px;
-
-background: #F8F7F7;
-border-radius: 35px;
+    width: 390px;
+    height: 300px;
+    left: 556px;
+    top: 1065.5px;
+    background: #F8F7F7;
+    border-radius: 35px;
 }
 
 .terceiro-retangulo {
     position: absolute;
 width: 390px;
 height: 300px;
-left: 931px;
-top: 1041.5px;
+left: 961px;
+top: 1065.5px;
 
 background: #F8F7F7;
 border-radius: 35px;
@@ -224,7 +221,7 @@ border-radius: 35px;
    
 width: 390px;
 height: 300px;
-left: 120px;
+left: 536px;
 right: 190;
 top: 10px;
 margin-top: 15px;
@@ -238,9 +235,9 @@ border-radius: 35px;
     position: absolute;
 width: 390px;
 height: 300px;
-left: 526px;
+left: 556px;
 top: 18px;
-margin-top: 1340px;
+margin-top: 1364px;
 background: #F8F7F7;
 border-radius: 35px;
 }
@@ -249,9 +246,9 @@ border-radius: 35px;
     position: absolute;
 width: 390px;
 height: 300px;
-left: 931px;
+left: 961px;
 top: 16px;
-margin-top: 1342px;
+margin-top: 1367px;
 
 background: #F8F7F7;
 border-radius: 35px;
@@ -305,8 +302,13 @@ color: #653A00;
     position: relative;
     width: 390px;
     text-decoration: none;
-    
 }
+
+.trn-bloco-conteudo:hover {
+    
+
+  }
+  
 
 .trn-bloco-conteudo p {
     color: white;
