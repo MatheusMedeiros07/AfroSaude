@@ -66,6 +66,7 @@
 
 .ap-txt-h1,
 .ap-txt-p {
+    color: #8b5000;
     font-family: Quicksand;
     font-style: normal;
     font-weight: 500;
@@ -270,7 +271,9 @@
     text-decoration: none;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1269px) {}
+
+@media (max-width: 760px) {
     .mn-segunda,
     .mn-quarta {
         margin-left: 4rem;
@@ -314,7 +317,7 @@
         flex-direction: column;
     }
     .rodape {
-        height: auto;
+        height: 110vh;
     }
     .rd-pt-cima {
         display: flex;
