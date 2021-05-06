@@ -364,13 +364,13 @@
     .mn-segunda {
         background-size: contain;
         background-repeat: no-repeat;
-        height: 180px;
+        height: 210px;
         margin-bottom: 250px;
     }
     .mn-quarta {
         background-size: contain;
         background-repeat: no-repeat;
-        height: 180px;
+        height: 210px;
         margin-bottom: 250px;
     }
     .ap-conteudo-bloco-segunda>button {
@@ -380,5 +380,50 @@
         height: 45px;
         width: 120px;
         font-size: 18px;
+        margin-left: 90px;
+    }
+    #pt-baixo-terceira {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 10px 0px;
+        width: 300%;
+        height: 1000px;
+        grid-gap: 20px 20px;
+    }
+    .qnt-pt-imagem,
+    .qnt-pt-comunidade,
+    .qnt-pt-vantagem,
+    .qnt-pt-facilidade {
+        display: flex;
+        justify-content: flex-start;
+        margin: 0px 0px;
+        width: 400%;
+        height: 300px;
+        grid-gap: 20px 20px;
+    }
+    #pt-cima-terceira,
+    #pt-cima-quinta p {
+        text-align: center;
+    }
+    .trn-pt-paciente,
+    .qnt-pt-comunidade p {
+        border-color: #fdb048;
+        font-size: 10px;
+    }
+    .trn-bloco-conteudo p,
+    .qnt-bloco-conteudo p {
+        color: white;
+        font-size: 23px;
+        left: 10%;
+        position: absolute;
+        top: -17%;
+    }
+    #pt-central-terceira h2,
+    #pt-central-quinta h2,
+    #pt-central-sexta h2,
+    #pt-central-setima h2 {
+        font-size: 23px;
+        text-align: center;
     }
 }
