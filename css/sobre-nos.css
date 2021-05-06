@@ -23,6 +23,33 @@
     color: #653a00;
 }
 
+.conteudo {
+    color: #653a00;
+    line-height: 35px;
+    padding: 30px;
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 70px;
+}
+
+.conteudo-lista,
+li {
+    color: #653a00;
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.list-conteudo {
+    padding-top: 60px;
+}
+
+li {
+    margin-left: 65px;
+}
+
 .tm-img {
     background-position: center;
     background-size: cover;
@@ -87,10 +114,8 @@ figcaption p {
 .cne-p-sobre,
 .cne-p {
     color: #653a00;
-    
-
 }
 
-.cne-p-sobre{
+.cne-p-sobre {
     font-size: 18px;
 }
