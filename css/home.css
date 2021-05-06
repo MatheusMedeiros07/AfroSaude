@@ -3,6 +3,35 @@
     margin: 0 auto;
 }
 
+@media (max-width: 760px) {
+    .mn-primeira {
+        border-radius: 35.05px;
+        display: grid;
+        grid-template-columns: .5fr .75fr .75fr 1fr;
+        grid-template-rows: 4fr 1fr;
+        background-color: #FFb24a;
+        height: 400.53px;
+        padding: 10px 5px;
+    }
+    main {
+        margin: 0px auto;
+    }
+    .ap-conteudo-bloco-primeira h1 {
+        font-size: 25px;
+        line-height: 18px;
+        margin-top: 200px;
+    }
+    .ap-conteudo-bloco-primeira p {
+        font-size: 15px;
+        line-height: 18px;
+        width: 270px;
+    }
+    .divisao-principal {
+        margin: 0px 0;
+        width: 0%;
+    }
+}
+
 .divisao-principal {
     margin: 45px 0;
     width: 100%;
@@ -315,9 +344,6 @@
     #pt-baixo-terceira {
         align-items: center;
         flex-direction: column;
-    }
-    .rodape {
-        height: 110vh;
     }
     .rd-pt-cima {
         display: flex;
