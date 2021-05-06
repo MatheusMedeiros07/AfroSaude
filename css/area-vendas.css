@@ -1,35 +1,29 @@
 .text-afro-venda {
     margin-top: 190px;
-    
     width: 690px;
     height: 48px;
     left: 160px;
     top: 333px;
-
     font-family: Quicksand;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 45px;
-
     color: #653A00;
 }
 
 .text-afro-saudeevoce {
-    
-width: 689.92px;
-height: 174.23px;
-left: 160px;
-top: 385px;
-margin-bottom: -80px;
-
-font-family: Quicksand;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 30px;
-
-color: #653A00;
+    width: 689.92px;
+    height: 174.23px;
+    left: 160px;
+    top: 385px;
+    margin-bottom: -80px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #653A00;
 }
 
 .saibamais-retangulo {
@@ -38,33 +32,27 @@ color: #653A00;
     height: 70.09px;
     left: calc(50% - 200.27px/2 - 462.87px);
     top: 918px;
-    
     background: #FFFFFF;
     border: 1.00133px solid #FFFFFF;
     box-sizing: border-box;
     backdrop-filter: blur(4.00533px);
     /* Note: backdrop-filter has minimal browser support */
-    
     border-radius: 10.0133px;
 }
 
 .text-retangulo {
-
-width: 124.17px;
-height: 29.04px;
-left: 195.75px;
-top: 937.72px;
-
-font-family: Quicksand;
-font-style: normal;
-font-weight: bold;
-font-size: 24.032px;
-line-height: 30px;
-/* identical to box height */
-
-text-align: center;
-
-color: #8B5000;
+    width: 124.17px;
+    height: 29.04px;
+    left: 195.75px;
+    top: 937.72px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24.032px;
+    line-height: 30px;
+    /* identical to box height */
+    text-align: center;
+    color: #8B5000;
 }
 
 .ap-segunda {
@@ -123,22 +111,18 @@ color: #8B5000;
     background-image: url(../img/medica.png);
 }
 
-
 .principais-temas {
-width: 692.92px;
-height: 24.03px;
-left: 124.21px;
-top: 1087px;
-
-font-family: Quicksand;
-font-style: normal;
-font-weight: bold;
-font-size: 16.0213px;
-line-height: 20px;
-
-color: #653A00;
+    width: 692.92px;
+    height: 24.03px;
+    left: 124.21px;
+    top: 1087px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16.0213px;
+    line-height: 20px;
+    color: #653A00;
 }
-
 
 .text-dentro-imagem {
     position: absolute;
@@ -146,46 +130,39 @@ color: #653A00;
     height: 48px;
     left: 158px;
     top: 723px;
-    
     font-family: Quicksand;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 45px;
-    
     color: #653A00;
 }
 
 .conteudo-dentro-imagem {
     position: absolute;
-width: 689.92px;
-height: 174.23px;
-left: 158px;
-top: 775px;
-
-font-family: Quicksand;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 30px;
-
-color: #653A00;
+    width: 689.92px;
+    height: 174.23px;
+    left: 158px;
+    top: 775px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #653A00;
 }
 
 .principais-temas-baixo {
-width: 997.33px;
-height: 55.07px;
-left: 124.21px;
-top: 1113.03px;
-
-font-family: Quicksand;
-font-style: normal;
-font-weight: bold;
-font-size: 36.048px;
-line-height: 45px;
-
-color: #653A00;
-
+    width: 997.33px;
+    height: 55.07px;
+    left: 124.21px;
+    top: 1113.03px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36.048px;
+    line-height: 45px;
+    color: #653A00;
 }
 
 .primeiro-retangulo {
@@ -209,86 +186,75 @@ color: #653A00;
 
 .terceiro-retangulo {
     position: absolute;
-width: 390px;
-height: 300px;
-left: 961px;
-top: 1075.5px;
-
-background: #F8F7F7;
-border-radius: 35px;
+    width: 390px;
+    height: 300px;
+    left: 961px;
+    top: 1075.5px;
+    background: #F8F7F7;
+    border-radius: 35px;
 }
 
 .quarto-retangulo {
-   
-width: 390px;
-height: 300px;
-left: 536px;
-right: 190;
-top: 10px;
-margin-top: 15px;
-margin-bottom: 40px;
-
-background: #F8F7F7;
-border-radius: 35px;
+    width: 390px;
+    height: 300px;
+    left: 536px;
+    right: 190;
+    top: 10px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    background: #F8F7F7;
+    border-radius: 35px;
 }
 
 .quinto-retangulo {
     position: absolute;
-width: 390px;
-height: 300px;
-left: 556px;
-top: 29px;
-margin-top: 1364px;
-background: #F8F7F7;
-border-radius: 35px;
+    width: 390px;
+    height: 300px;
+    left: 556px;
+    top: 29px;
+    margin-top: 1364px;
+    background: #F8F7F7;
+    border-radius: 35px;
 }
 
 .sexto-retangulo {
     position: absolute;
-width: 390px;
-height: 300px;
-left: 961px;
-top: 29px;
-margin-top: 1367px;
-
-background: #F8F7F7;
-border-radius: 35px;
+    width: 390px;
+    height: 300px;
+    left: 961px;
+    top: 29px;
+    margin-top: 1367px;
+    background: #F8F7F7;
+    border-radius: 35px;
 }
 
 .afro-conectar {
-    
-width: 692.92px;
-height: 24.03px;
-left: 122px;
-top: 1849px;
-
-font-family: Quicksand;
-font-style: normal;
-font-weight: bold;
-font-size: 16.0213px;
-line-height: 20px;
-
-color: #653A00;
-
+    width: 692.92px;
+    height: 24.03px;
+    left: 122px;
+    top: 1849px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16.0213px;
+    line-height: 20px;
+    color: #653A00;
 }
 
 .afro-assine {
-   
-width: 997.33px;
-height: 55.07px;
-left: 122px;
-top: 1875.03px;
-
-font-family: Quicksand;
-font-style: normal;
-font-weight: bold;
-font-size: 36.048px;
-line-height: 45px;
-
-color: #653A00;
+    width: 997.33px;
+    height: 55.07px;
+    left: 122px;
+    top: 1875.03px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36.048px;
+    line-height: 45px;
+    color: #653A00;
 }
 
-#pt-baixo-terceira{
+#pt-baixo-terceira {
     display: flex;
     justify-content: space-between;
     margin: 20px 0;
@@ -305,12 +271,6 @@ color: #653A00;
     text-decoration: none;
 }
 
-.trn-bloco-conteudo:hover {
-    
-
-  }
-  
-
 .trn-bloco-conteudo p {
     color: white;
     font-size: 24px;
@@ -319,17 +279,16 @@ color: #653A00;
     top: -8%;
 }
 
-.trn-pt-basico{
+.trn-pt-basico {
     border-color: #fdb048;
     margin-bottom: 30px;
 }
 
-.trn-pt-premium{
+.trn-pt-premium {
     border-color: #e88b00;
 }
 
-.trn-pt-premium-anual
- {
+.trn-pt-premium-anual {
     border-color: #e88b00;
 }
 
@@ -345,7 +304,7 @@ color: #653A00;
     color: #653A00;
 }
 
-.basico ,
+.basico,
 .basico2,
 .basico3,
 .basico4 {
@@ -369,19 +328,18 @@ color: #653A00;
 }
 
 .texto-basico {
-position: absolute;
-width: 230px;
-height: 15px;
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 18px;
-margin-left: 29.60%;
-margin-top: 35px;
-color: #653A00;
+    position: absolute;
+    width: 230px;
+    height: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: 29.60%;
+    margin-top: 35px;
+    color: #653A00;
 }
-
 
 .semestral-semestre {
     margin-top: 20px;
@@ -396,29 +354,20 @@ color: #653A00;
 }
 
 .cancelar-basico {
-width: 140px;
-height: 21px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 10px;
-line-height: 18px;
-margin-left: 35%;
-margin-top: 5px;
-text-align: center;
-color: #653A00;
+    width: 140px;
+    height: 21px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 18px;
+    margin-left: 35%;
+    margin-top: 5px;
+    text-align: center;
+    color: #653A00;
 }
 
-
-.semestral,
-.semestral2,
-.semestral3,
-.semestral4,
-.semestral5,
-.semestral6,
-.semestral7,
-.semestral8 {
+.semestral {
     text-align: left;
     margin-top: 8%;
     font-family: Quicksand;
@@ -439,23 +388,22 @@ color: #653A00;
 }
 
 .texto-semestre {
-position: absolute;
-width: 230px;
-height: 15px;
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 18px;
-margin-left: 29.60%;
-margin-top: 35px;
-color: #653A00;
+    position: absolute;
+    width: 230px;
+    height: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: 29.60%;
+    margin-top: 35px;
+    color: #653A00;
 }
 
 .cancelar-semestre {
     width: 140px;
     height: 21px;
-    
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -465,7 +413,7 @@ color: #653A00;
     margin-top: 5px;
     text-align: center;
     color: #653A00;
-    }
+}
 
 .anual-premium {
     margin-top: 20px;
@@ -497,7 +445,7 @@ color: #653A00;
     color: #653A00;
 }
 
-.membro-anual{
+.membro-anual {
     margin-top: 30px;
     margin-left: 22%;
     width: 236px;
@@ -507,23 +455,22 @@ color: #653A00;
 }
 
 .texto-anual {
-position: absolute;
-width: 230px;
-height: 15px;
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 18px;
-margin-left: 29.60%;
-margin-top: 35px;
-color: #653A00;
+    position: absolute;
+    width: 230px;
+    height: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: 29.60%;
+    margin-top: 35px;
+    color: #653A00;
 }
 
 .cancelar-anual {
     width: 140px;
     height: 21px;
-    
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -533,9 +480,9 @@ color: #653A00;
     margin-top: 5px;
     text-align: center;
     color: #653A00;
-    }
+}
 
-    li {
-        margin-left: 65px;
-        color: #653A00;
-    }
+li {
+    margin-left: 65px;
+    color: #653A00;
+}
