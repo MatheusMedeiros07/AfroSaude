@@ -270,27 +270,15 @@
     text-decoration: none;
 }
 
-<<<<<<< HEAD
 @media (min-width: 668px) and (max-width: 1024px) {
     .ap-segunda {
         transform: translateY(700px);
     }
-=======
-@media (max-width: 1269px) {}
-
-@media (max-width: 760px) {
->>>>>>> a5e77eefc00e2534a18607a3d9fe21bdbbbcdf3d
     .mn-segunda,
     .mn-quarta {
-        margin-left: 4rem;
         background-position: right;
-<<<<<<< HEAD
         height: 100vw;
         margin-left: 10vw;
-=======
-        justify-content: space-around;
-        width: 80vw;
->>>>>>> a5e77eefc00e2534a18607a3d9fe21bdbbbcdf3d
     }
     .trn-bloco-conteudo {
         width: 90vw;

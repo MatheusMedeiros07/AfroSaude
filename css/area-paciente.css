@@ -323,7 +323,7 @@ div {
     .ap-segunda,
     .ap-quarta {
         background-position: none;
-        margin-left: 6.5%;
+        margin-left: 10%;
         width: 80vw;
     }
 
@@ -332,14 +332,18 @@ div {
     font-size: 22px;
 }
     .ap-conteudo-bloco-primeira {
-    padding: 45px;
-    margin-top: 15px;
+    padding: 35px;
+    margin-top: 10px;
     }
 
     .ap-conteudo-bloco-segunda {
     margin-left: 20px;
     margin-top: -18px;
     
+}
+#ap-baixo-sexta {
+    align-items: center;
+    flex-direction: column;
 }
 }
 
