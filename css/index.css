@@ -12,31 +12,15 @@ body {
     background-color: #ffffff;
     margin: 0 125px;
 }
-
-.bs-example {
-    width: 100vw;
-}
-
-.navbar-expand-md {
-    padding: 2vw 7vw;
-}
-
-.navbar-collapse {
-    position: relative;
-}
-
-.navbar-nav {
-    position: relative;
-    left: 40%;
-    font-size: 20px;
-}
-
-.nav-link {
-    margin: 0 1rem;
-}
-
-
 /* CABEÇALHO*/
+
+.cabecalho {
+    display: grid;
+    grid-template-areas: "logo item1 item2";
+    grid-auto-rows: 80px;
+    justify-content: center;
+    margin-top: 40px;
+}
 
 .logo img {
     grid-area: "logo";
@@ -106,8 +90,6 @@ body {
         min-width: 100px;
     }
 }
-
-
 /* RODAPÉ*/
 
 .rodape {
@@ -200,8 +182,6 @@ footer {
         height: 700px;
     }
 }
-
-
 /* Tela Padrão Desktop  */
 
 @media (min-width: 1270px) {
