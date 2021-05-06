@@ -12,6 +12,8 @@ body {
     background-color: #ffffff;
     margin: 0 125px;
 }
+
+
 /* CABEÇALHO*/
 
 .cabecalho {
@@ -62,38 +64,7 @@ body {
     color: #FFb24a;
 }
 
-<<<<<<< HEAD
 
-=======
-@media (max-width: 800px) {
-    header {
-        margin: 0px auto;
-    }
-    .cabecalho {
-        display: grid;
-        grid-template-areas: "logo" "item1" "item2";
-        grid-auto-rows: 80px;
-        margin-top: 0px;
-        padding: 30px;
-        text-align: center;
-        font-size: 12;
-    }
-    .logo img {
-        grid-area: "logo";
-        margin-inline-end: 0px;
-    }
-    .item1 {
-        max-width: 768px;
-        min-width: 360px;
-    }
-    .item2 {
-        margin-top: 0px;
-        grid-area: "item2";
-        max-width: 768px;
-        min-width: 100px;
-    }
-}
->>>>>>> a5e77eefc00e2534a18607a3d9fe21bdbbbcdf3d
 /* RODAPÉ*/
 
 .rodape {
@@ -186,6 +157,8 @@ footer {
         height: 700px;
     }
 }
+
+
 /* Tela Padrão Desktop  */
 
 @media (min-width: 1270px) {
