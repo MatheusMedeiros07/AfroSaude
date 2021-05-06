@@ -300,15 +300,12 @@
     text-decoration: none;
 }
 
-@media (max-width: 1269px) {}
-
-@media (max-width: 760px) {
+@media (max-width: 770px) {
     .mn-segunda,
     .mn-quarta {
-        margin-left: 4rem;
         background-position: right;
-        justify-content: space-around;
         width: 80vw;
+        margin-left: 10vw;
     }
     .trn-bloco-conteudo {
         width: 90vw;
