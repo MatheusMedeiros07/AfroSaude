@@ -7,8 +7,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 1rem;
-    margin: 2rem 0;
+    box-sizing: content-box;
+    margin: 1rem 0 2rem 0;
 }
 
 .grade-blog-item {
@@ -16,30 +16,19 @@
     height: 300px;
     background: #F8F7F7;
     border-radius: 35px;
+    margin-bottom: 1rem;
 }
 
-.text-afro-venda {
-    margin-top: 190px;
-    width: 690px;
-    height: 48px;
-    left: 160px;
-    top: 333px;
-    font-style: normal;
+.primeiro-container {
+    width: 50%;
+    font-size: 24px;
+    margin: 10% 0 1% 5%;
+}
+
+.primeiro-container>h1 {
     font-weight: bold;
     font-size: 36px;
-    line-height: 45px;
-}
-
-.text-afro-saudeevoce {
-    width: 689.92px;
-    height: 174.23px;
-    left: 160px;
-    top: 385px;
-    margin-bottom: -80px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 30px;
+    margin: .5rem 0;
 }
 
 .saibamais-retangulo {
@@ -51,8 +40,6 @@
     background: #FFFFFF;
     border: 1.00133px solid #FFFFFF;
     box-sizing: border-box;
-    backdrop-filter: blur(4.00533px);
-    /* Note: backdrop-filter has minimal browser support */
     border-radius: 10.0133px;
 }
 
@@ -65,7 +52,6 @@
     font-weight: bold;
     font-size: 24.032px;
     line-height: 30px;
-    /* identical to box height */
     text-align: center;
     color: #8B5000;
 }
@@ -102,7 +88,6 @@
 
 .ap-txt-h1,
 .ap-txt-p {
-    color: #8b5000;
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
@@ -396,14 +381,11 @@
     color: #653A00;
 }
 
-li {
+
+/* li {
     margin-left: 65px;
     color: #653A00;
-}
-
-h3 {
-    color: #653A00;
-}
+} */
 
 a {
     text-decoration: none;
