@@ -321,7 +321,6 @@ div {
 @media (min-width: 768px) and (max-width: 1024px) {
     .ap-segunda1,
     .ap-quarta {
-        background-position: none;
         margin-left: 10%;
         width: 80vw;
     }
