@@ -134,8 +134,7 @@
     text-align: center;
 }
 
-.conteudo-paciente,
-.conteudo-facilidade {
+.conteudo-paciente {
     padding: 1px 50px;
 }
 
@@ -148,7 +147,11 @@
 }
 
 .conteudo-vantagens {
-    padding: 0px 25px;
+    padding: 10px 25px;
+}
+
+.conteudo-facilidade {
+    padding: 45px 50px;
 }
 
 .trn-bloco-conteudo {

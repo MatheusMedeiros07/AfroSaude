@@ -4,7 +4,7 @@
     border-radius: 35.05px;
 }
 
-.ap-segunda {
+.ap-segunda1 {
     background-position: 30% 0%;
     background-size: cover;
     border-radius: 35px;
@@ -41,7 +41,7 @@
     border: 2px solid #a07438;
 }
 
-.ap-segunda {
+.ap-segunda1 {
     background-image: url(../img/mulher_head.png);
 }
 
@@ -319,13 +319,54 @@ div {
     text-decoration: none;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    .ap-segunda1,
+    .ap-quarta {
+        background-position: none;
+        margin-left: 10%;
+        width: 80vw;
+    }
+
+    .ap-txt-h1,
+    .ap-txt-p {
+    font-size: 22px;
+    }
+    .ap-conteudo-bloco-primeira {
+    padding: 45px;
+    margin-top: 15px;
+    }
+
+    .ap-conteudo-bloco-segunda {
+    margin-left: 20px;
+    margin-top: -18px;
+    
+    }
+    
+    .rodape {
+        height: 110vh;
+    }
+    .rd-pt-cima {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .divisao-rodape {
+        margin: 25px 0;
+    }
+    .rodape-endereco {
+        font-size: 1rem;
+    }
+
+}
+
 @media (max-width: 760px) {
-    .ap-segunda,
+    .ap-segunda1,
     .ap-quarta {
         margin-left: 4rem;
         background-position: right;
         justify-content: space-around;
         width: 80vw;
+        transform: none;
     }
 
     .trn-bloco-conteudo {
