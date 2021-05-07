@@ -3,6 +3,12 @@
     width: 100%;
 }
 
+.div-cabecalho {
+    display: grid;
+    align-items: center;
+}
+
+
 .img-topo,
 .text-titulo {
     background-position: 30% 49%;
@@ -118,4 +124,96 @@ figcaption p {
 
 .cne-p-sobre {
     font-size: 18px;
+}
+
+#pt-central{
+    color: #653a00;
+    font-size: 35px;
+
+}
+
+@media (max-width: 668px){
+
+    #pt-baixo-terceira {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        align-items: center;
+        
+    }
+
+
+    .img-topo{
+        margin: 20px 20px;
+        width: auto;
+        padding: 0px;
+
+    }
+
+    .cne-p-sobre{
+        text-align: justify;
+        font-size: 18px;
+        line-height: 20px;
+        width: 310px;
+        padding: 0px;
+        margin-left: 20px;
+
+    }
+
+    .div-principal {
+        margin: 20px 20px;
+        width: auto;
+        height: 250px;
+        padding: 0px;
+    }
+
+    .bc-equipe{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        background-color: #653a00;
+        width: 100vw;
+        
+    }
+
+    .cne-txt{
+        font-size: 14px;    
+        
+    }
+
+    .biografia{
+        width: 100vw;
+
+    }
+
+    .biografia>figure{
+        width: 30%;
+        height: 35%;
+    }
+
+    .cne-p{
+        display: none;
+        
+    }
+   
+
+
+
+    @media (min-width: 668px) and (max-width: 1024px){
+
+    .trn-bloco-conteudo {
+        width: 90vw;
+        margin: 1.7rem 0;
+    }
+
+
+
+    
+
+    
+        
+    
+    
+
+
 }
