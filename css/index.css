@@ -110,24 +110,6 @@
         width: 310px;
     }
     
-    .conteudo-paciente,
-    .conteudo-profissional {
-        color: #653a00;
-        line-height: 35px;
-        font-family: Quicksand;
-        font-size: 25px;
-        font-weight: bold;
-        text-align: center;
-    }
-    
-    .conteudo-paciente {
-        padding: 1px 50px;
-    }
-    
-    .conteudo-profissional {
-        padding: 1px 80px;
-    }
-    
     footer {
         background-color: #ffb24a;
         width: 100vw;
