@@ -122,7 +122,10 @@
 }
 
 .conteudo-paciente,
-.conteudo-profissional {
+.conteudo-profissional,
+.conteudo-vantagem,
+.conteudo-vantagens,
+.conteudo-facilidade {
     color: #653a00;
     line-height: 35px;
     font-family: Quicksand;
@@ -131,12 +134,21 @@
     text-align: center;
 }
 
-.conteudo-paciente {
+.conteudo-paciente,
+.conteudo-facilidade {
     padding: 1px 50px;
 }
 
 .conteudo-profissional {
     padding: 1px 80px;
+}
+
+.conteudo-vantagem {
+    padding: 0px 40px;
+}
+
+.conteudo-vantagens {
+    padding: 0px 25px;
 }
 
 .trn-bloco-conteudo {
@@ -213,9 +225,10 @@
 }
 
 .sxt-primeiro-bloco h3 {
-    color: #323131;
+    color: #653a00;
     font-family: 'Montserrat', sans-serif;
-    font-size: 36px;
+    font-size: 30px;
+    font-style: italic;
     font-weight: lighter;
     text-align: center;
 }
@@ -233,8 +246,9 @@
 }
 
 .sxt-segundo-bloco p {
-    color: #323131;
+    color: #653a00;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     font-size: 18px;
     margin: 25px;
 }
