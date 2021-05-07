@@ -8,7 +8,6 @@
     align-items: center;
 }
 
-
 .img-topo,
 .text-titulo {
     background-position: 30% 49%;
@@ -39,8 +38,7 @@
     margin-top: 70px;
 }
 
-.conteudo-lista,
-li {
+.conteudo-lista li {
     color: #653a00;
     font-family: Quicksand;
     font-weight: bold;
@@ -126,94 +124,94 @@ figcaption p {
     font-size: 18px;
 }
 
-#pt-central{
+#pt-central {
     color: #653a00;
     font-size: 35px;
-
 }
 
-@media (max-width: 668px){
-
+@media (max-width: 868px) {
     #pt-baixo-terceira {
         display: flex;
         flex-direction: column;
         width: 90vw;
         align-items: center;
-        
     }
-
-
-    .img-topo{
+    .img-topo {
         margin: 20px 20px;
         width: auto;
         padding: 0px;
-
     }
-
-    .cne-p-sobre{
+    .cne-p-sobre {
         text-align: justify;
         font-size: 18px;
         line-height: 20px;
         width: 310px;
         padding: 0px;
         margin-left: 20px;
-
     }
-
     .div-principal {
         margin: 20px 20px;
         width: auto;
         height: 250px;
         padding: 0px;
     }
-
-    .bc-equipe{
+    #pt-baixo-terceira {
+        width: 87vw;
+    }
+    .trn-bloco-conteudo {
+        width: 100%;
+    }
+    #pt-central-terceira {
+        text-align: center;
+    }
+    .bc-equipe {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 45vw 45vw;
         grid-template-rows: 1fr 1fr;
-        background-color: #653a00;
-        width: 100vw;
-        
+        margin: 0;
     }
-
-    .cne-txt{
-        font-size: 14px;    
-        
+    .cne-txt {
+        font-size: 14px;
     }
-
-    .biografia{
-        width: 100vw;
-
+    .biografia {
+        width: 100%;
     }
-
-    .biografia>figure{
-        width: 30%;
-        height: 35%;
+    .biografia>figure {
+        margin-left: 27%;
+        width: 50%;
+        height: 45%;
     }
-
-    .cne-p{
+    .cne-p {
         display: none;
-        
     }
-   
+    footer {
+        height: 90vh;
+        width: 96vw;
+    }
+    .rodape {
+        margin: 0 auto;
+    }
+    .rd-pt-cima {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .divisao-rodape {
+        margin: 20px 0;
+    }
+    .divisao-rodape>ul>ul {
+        display: block;
+        margin-left: -60px;
+    }
+    .rodape-endereco {
+        margin-top: 5px;
+        font-size: 1.5rem;
+    }
+}
 
-
-
-    @media (min-width: 668px) and (max-width: 1024px){
-
+@media (min-width: 668px) and (max-width: 1024px) {
     .trn-bloco-conteudo {
         width: 90vw;
         margin: 1.7rem 0;
     }
-
-
-
-    
-
-    
-        
-    
-    
-
-
 }

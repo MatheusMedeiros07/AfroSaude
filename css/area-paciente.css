@@ -277,7 +277,6 @@ div {
     position: relative;
 }
 
-
 .stm-bloco-blog {
     border-radius: 35px;
     background-color: #f8f7f7;
@@ -326,22 +325,18 @@ div {
         margin-left: 10%;
         width: 80vw;
     }
-
     .ap-txt-h1,
     .ap-txt-p {
-    font-size: 22px;
+        font-size: 22px;
     }
     .ap-conteudo-bloco-primeira {
-    padding: 45px;
-    margin-top: 15px;
+        padding: 45px;
+        margin-top: 15px;
     }
-
     .ap-conteudo-bloco-segunda {
-    margin-left: 20px;
-    margin-top: -18px;
-    
+        margin-left: 20px;
+        margin-top: -18px;
     }
-    
     .rodape {
         height: 110vh;
     }
@@ -356,7 +351,6 @@ div {
     .rodape-endereco {
         font-size: 1rem;
     }
-
 }
 
 @media (max-width: 760px) {
@@ -368,12 +362,10 @@ div {
         width: 80vw;
         transform: none;
     }
-
     .trn-bloco-conteudo {
         width: 90vw;
         margin: 1.7rem 0;
     }
-
     .qnt-bloco-conteudo {
         width: 100%;
     }
