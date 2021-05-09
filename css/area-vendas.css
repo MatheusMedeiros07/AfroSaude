@@ -185,13 +185,12 @@
 }
 
 #pt-baixo-terceira {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     margin: 20px 0;
 }
 
 .trn-bloco-conteudo {
-    background-color: #f8f7f7;
     border-radius: 35px;
     border-top: 68px solid;
     display: inline-block;
@@ -201,12 +200,19 @@
     text-decoration: none;
 }
 
-.trn-bloco-conteudo p {
+.plano-bloco-titulo p {
     color: white;
     font-size: 24px;
     left: 29%;
     position: absolute;
     top: -8%;
+}
+
+.plano-bloco-informativo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 550px;
 }
 
 .trn-pt-basico {
@@ -234,35 +240,23 @@
     color: #653A00;
 }
 
-.basico {
-    text-align: left;
-    margin-top: 7%;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16.0213px;
-    line-height: 20px;
-    color: #653A00;
-}
-
 .membro-botao {
-    margin-top: 63.95%;
-    margin-left: 20%;
-    width: 236px;
-    height: 30px;
+    grid-column: 2/2;
     background: #F4AA28;
-    border-radius: 15px;
     text-align: center;
+    border-radius: 15px;
 }
 
-.cancelar-basico {
-    width: 140px;
-    height: 21px;
+.plano-bloco-rodape {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.plano-bloco-rodape span {
+    grid-column: 1/5;
     font-style: normal;
-    font-weight: 500;
-    font-size: 10px;
-    line-height: 18px;
-    margin-left: 33%;
-    margin-top: 5px;
+    font-size: .8rem;
     text-align: center;
     color: #653A00;
 }
@@ -276,16 +270,6 @@
 .semestral-preco {
     margin-top: 20px;
     text-align: center;
-    color: #653A00;
-}
-
-.semestral {
-    text-align: left;
-    margin-top: 8%;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16.0213px;
-    line-height: 20px;
     color: #653A00;
 }
 
@@ -336,14 +320,21 @@
     color: #653A00;
 }
 
-.anual {
+.item-plano {
     text-align: left;
-    margin-top: 8%;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16.0213px;
-    line-height: 20px;
     color: #653A00;
+    padding: 7px 5px;
+    list-style: square inside;
+    transition: .4s;
+}
+
+.item-plano:hover {
+    text-shadow: 1px 1px 1px rgb(41, 41, 9);
+    transition: 1s;
+}
+
+.item-plano:hover {
+    border-bottom: black;
 }
 
 .membro-anual {
@@ -379,16 +370,6 @@
     margin-top: 5px;
     text-align: center;
     color: #653A00;
-}
-
-
-/* li {
-    margin-left: 65px;
-    color: #653A00;
-} */
-
-a {
-    text-decoration: none;
 }
 
 .bs-example {
