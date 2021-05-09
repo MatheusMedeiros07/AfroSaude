@@ -242,9 +242,17 @@
 
 .membro-botao {
     grid-column: 2/2;
+    text-decoration: none;
     background: #F4AA28;
     text-align: center;
     border-radius: 15px;
+    transition: .5s;
+}
+
+.membro-botao:hover {
+    box-shadow: 0 5px 2px slategray;
+    text-decoration: none;
+    transition: 1s;
 }
 
 .plano-bloco-rodape {
