@@ -33,21 +33,20 @@
     line-height: 35px;
     padding: 30px;
     font-family: Quicksand;
-    font-weight: bold;
     font-size: 25px;
     margin-top: 70px;
+    text-align: center;
 }
 
 .conteudo-lista li {
     color: #653a00;
     font-family: Quicksand;
-    font-weight: bold;
     font-size: 25px;
-    margin-top: 5px;
+    margin-top: 3px;
 }
 
 .list-conteudo {
-    padding-top: 60px;
+    padding-top: 10px;
 }
 
 li {
@@ -135,6 +134,7 @@ figcaption p {
         flex-direction: column;
         width: 90vw;
         align-items: center;
+        
     }
     .img-topo {
         margin: 20px 20px;
@@ -142,16 +142,17 @@ figcaption p {
         padding: 0px;
     }
     .cne-p-sobre {
+       
         text-align: justify;
         font-size: 18px;
         line-height: 20px;
         width: 310px;
         padding: 0px;
-        margin-left: 20px;
+        margin: auto;
     }
     .div-principal {
-        margin: 20px 20px;
-        width: auto;
+        margin: auto;
+        width: 80%;
         height: 250px;
         padding: 0px;
     }
@@ -179,10 +180,21 @@ figcaption p {
     .biografia>figure {
         margin-left: 27%;
         width: 50%;
-        height: 45%;
+        height: 30%;
     }
     .cne-p {
         display: none;
+    }
+
+    .conteudo{
+        margin-top: 30px;
+    }
+
+    .conteudo-lista{
+        margin-top: 40px;
+        font-size: 20px;
+        color: #653a00;
+
     }
     footer {
         height: 90vh;
@@ -199,6 +211,10 @@ figcaption p {
     .divisao-rodape {
         margin: 20px 0;
     }
+    .rd-segunda{
+        font-size: 12px;
+    }
+    
     .divisao-rodape>ul>ul {
         display: block;
         margin-left: -60px;
@@ -207,11 +223,49 @@ figcaption p {
         margin-top: 5px;
         font-size: 1.5rem;
     }
+    #pt-central{
+        text-align: center;
+    }
+   
 }
 
 @media (min-width: 668px) and (max-width: 1024px) {
     .trn-bloco-conteudo {
         width: 90vw;
         margin: 1.7rem 0;
+    }
+    .biografia>figure {
+        margin-left: 23%;
+        
+        width: 50%;
+        height: 70%;
+    }
+    .cne-p-sobre {       
+        text-align: justify;        
+        line-height: 20px;
+        width: 90%;
+        padding: 10px;
+        margin: auto;
+    }
+    .img-topo {
+        margin: 100px 100px;
+        width: auto;
+        padding: 0px;
+    }
+    .div-principal {
+        margin: 10px;
+        width: 90%;
+        align-items: center;
+        height: 250px;
+        padding: 0px;
+    }
+    .conteudo-lista{
+        margin-top: 40px;
+        font-size: 30px;
+        color: #653a00;
+    }
+    .conteudo{
+        font-size: 30px;
+        margin-top: 90px;
     }
 }
