@@ -107,8 +107,12 @@
     line-height: 30px;
 }
 
-.mn-segunda {
+.main-segunda {
     background-image: url(../img/medica.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30% 45%;
+    border-radius: 35px;
 }
 
 .principais-temas {
@@ -447,3 +451,38 @@
 
 
 /* Fim do Cabeçalho Responsivo*/
+
+@media screen and (max-width: 1200px) {
+    .grade-blog {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin: 2rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .grade-blog-item {
+        background-color: #653A00;
+        width: 340px;
+        height: 250px;
+        border-radius: 35px;
+        margin: 1rem auto;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .grade-blog-item:nth-child(n+4) {
+        display: none;
+    }
+    .grade-blog {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        margin: 2rem;
+    }
+    .grade-blog-item {
+        background-color: #653A00;
+        margin: 1rem auto;
+        width: calc(290px -2rem);
+        height: 200px;
+    }
+}
