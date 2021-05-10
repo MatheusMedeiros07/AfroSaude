@@ -52,7 +52,6 @@ body {
     align-items: center;
     height: 200px;
     margin: 0 125px;
-    list-style: none;
 }
 
 .rd-redes-sociais img {
@@ -66,6 +65,7 @@ body {
     display: flex;
     justify-content: space-around;
     position: relative;
+    list-style: none;
 }
 
 .rodape-endereco {
