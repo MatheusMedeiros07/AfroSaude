@@ -131,10 +131,9 @@ figcaption p {
 @media (max-width: 668px) {
         
     main {
-        margin: 0px auto;
+        margin: 0 auto;
     }
-
-    
+ 
 
     #pt-baixo-terceira {
         display: flex;
@@ -205,35 +204,20 @@ figcaption p {
     .conteudo{
         margin-top: 50px;
     
-    }
+    }  
    
-    footer {
-        height: 90vh;
-        width: 96vw;
-    }
-    .rodape {
-        margin: 0 auto;
-    }
+   
     .rd-pt-cima {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
     }
-    .divisao-rodape {
-        margin: 20px 0;
-    }
+    
     .rd-segunda{
         font-size: 12px;
     }
     
-    .divisao-rodape>ul>ul {
-        display: block;
-        margin-left: -60px;
-    }
-    .rodape-endereco {
-        margin-top: 5px;
-        font-size: 1.5rem;
-    }
+    
     #pt-central h2{
         text-align: justify;      
         font-size: 25px;
@@ -260,6 +244,10 @@ figcaption p {
         font-size: 10px;
         width: 100%;
     }
+    .rodape, .rodape-endereco{
+        display: none;
+    }
+    
    
    
 }
@@ -323,11 +311,12 @@ figcaption p {
         width: 90vw;
         align-items: center;        
     }
-    .rodape{
+
+  
+    
+    .rodape, .rodape-endereco{
         display: none;
     }
-    .stm-blog-img{
-        margin-top: 10px;
-    }
+    
 
 }
