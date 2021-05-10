@@ -1,131 +1,175 @@
-    * {
-        font-family: 'Quicksand', sans-serif;
-        margin: 0;
-        padding: 0;
+* {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.main-container {
+    background-color: #ffffff;
+    margin: 0 125px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.cb-segunda ul {
+    position: relative;
+}
+
+.cb-segunda ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.cb-segunda ul li a {
+    text-decoration: none;
+    color: #653A00;
+    font-size: 18px;
+}
+
+.cb-segunda ul li:last-child {
+    border: 3px solid #653A00;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.divisao-cabecalho {
+    display: grid;
+    align-items: center;
+}
+
+.rodape {
+    display: grid;
+    grid-template-rows: 2fr;
+    align-items: center;
+    height: 200px;
+    margin: 0 125px;
+}
+
+.rd-redes-sociais img {
+    height: 2.5rem;
+    margin-left: 10px;
+    width: 2.5rem;
+}
+
+.rd-pt-cima {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.rodape-endereco {
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-rows: 1fr;
+    height: 100px;
+    margin: 0 125px;
+}
+
+.divisao-rodape {
+    position: relative;
+}
+
+.rd-primeira img,
+.cb-primeira img {
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    right: 0;
+}
+
+.rd-segunda ul ul li,
+.rd-terceira ul ul li,
+.cb-segunda ul li {
+    list-style: none;
+}
+
+.rd-segunda ul ul li a,
+.rd-terceira ul ul li a {
+    color: #653a00;
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.rd-segunda>ul::before,
+.rd-terceira>ul::before {
+    background-color: #653a00;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    content: '';
+    display: block;
+    height: 3px;
+    margin: 10px 0 5px 0;
+    width: 310px;
+}
+
+footer {
+    background-color: #ffb24a;
+    width: 100vw;
+}
+
+.sticky {
+    background-color: rgb(255, 178, 74, 0.8);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+
+/* celular */
+
+@media (max-width: 668px) {
+    .footer {
+        width: 100%;
     }
-    
-    body {
-        margin: 0 auto;
-    }
-    
-    .main-container {
-        background-color: #ffffff;
-        margin: 0 125px;
-    }
-    
-    .cabecalho {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        margin-top: 30px;
-    }
-    
-    .cb-segunda ul {
-        position: relative;
-    }
-    
-    .cb-segunda ul li {
-        display: inline-block;
-        margin-left: 10px;
-    }
-    
-    .cb-segunda ul li a {
-        text-decoration: none;
-        color: #653A00;
-        font-size: 18px;
-    }
-    
-    .cb-segunda ul li:last-child {
-        border: 3px solid #653A00;
-        border-radius: 5px;
-        padding: 3px;
-    }
-    
-    .divisao-cabecalho {
-        display: grid;
-        align-items: center;
-    }
-    
     .rodape {
         display: grid;
-        grid-template-rows: 2fr 1fr;
-        align-items: center;
-        height: 400px;
-        margin: 0 125px;
-    }
-    
-    .rd-redes-sociais img {
-        height: 2.5rem;
-        margin-left: 10px;
-        width: 2.5rem;
-    }
-    
-    .rd-pt-cima {
-        align-items: center;
-        display: flex;
-        justify-content: space-around;
-        position: relative;
-    }
-    
-    .rodape-endereco {
-        font-size: 20px;
+        grid-template-rows: 2fr;
+        height: 490px;
+        margin: 10 10px;
         text-align: center;
+        align-items: center;
     }
-    
-    .divisao-rodape {
-        position: relative;
+    .rd-pt-cima {
+        display: list-item;
     }
-    
-    .rd-primeira img,
-    .cb-primeira img {
-        display: inline-block;
-        position: relative;
-        width: 250px;
-        right: 0;
+    .rd-pt-baixo {
+        width: 100%;
     }
-    
-    .rd-segunda ul ul li,
-    .rd-terceira ul ul li,
-    .cb-segunda ul li {
-        list-style: none;
-    }
-    
-    .rd-segunda ul ul li a,
-    .rd-terceira ul ul li a {
-        color: #653a00;
+    .rodape-endereco {
         font-size: 18px;
-        font-weight: normal;
-        text-decoration: none;
+        text-align: center;
+        height: 200px;
+        margin: 10 125px;
     }
-    
     .rd-segunda>ul::before,
     .rd-terceira>ul::before {
-        background-color: #653a00;
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
         content: '';
-        display: block;
+        display: flex;
         height: 3px;
-        margin: 10px 0 5px 0;
-        width: 310px;
+        margin: 10px 0 30px 0;
+        width: auto;
     }
-    
-    footer {
-        background-color: #ffb24a;
-        width: 100vw;
+}
+
+
+/* Tela Padrão Desktop  */
+
+@media (min-width: 1270px) {
+    .main-container {
+        width: 1270px;
     }
-    
-    .sticky {
-        background-color: rgb(255, 178, 74, 0.8);
-        position: fixed;
-        top: 0;
-        width: 100%;
-        z-index: 3;
-    }
-    /* Tela Padrão Desktop  */
-    
-    @media (min-width: 1270px) {
-        .main-container {
-            width: 1270px;
-        }
-    }
+}
