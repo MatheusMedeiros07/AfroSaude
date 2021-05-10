@@ -273,7 +273,7 @@ div {
     align-self: center;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     position: relative;
 }
 
@@ -284,13 +284,7 @@ div {
     grid-template-rows: 1fr 1fr;
     height: 390px;
     width: 390px;
-}
-
-.stm-blog-img img {
-    border-radius: 35px;
-    max-height: 50%;
-    max-width: 100%;
-    position: absolute;
+    margin: 1rem;
 }
 
 .stm-blog-txt {
