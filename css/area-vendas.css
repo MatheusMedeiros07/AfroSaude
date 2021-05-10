@@ -185,8 +185,9 @@
 }
 
 #pt-baixo-terceira {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     margin: 20px 0;
 }
 
@@ -394,9 +395,19 @@
 
 .navbar-nav {
     position: relative;
-    left: 60%;
+    left: 30%;
 }
 
 .nav-link {
+    font-size: 20px;
     margin: 0 1rem;
+}
+
+.nav-linklast-child {
+    border: 3px solid tomato;
+}
+
+.navbar-brand img {
+    width: 200px;
+    height: 100px;
 }
