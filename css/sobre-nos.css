@@ -129,18 +129,14 @@ figcaption p {
 }
 
 @media (max-width: 668px) {
-        
     main {
         margin: 0 auto;
     }
- 
-
     #pt-baixo-terceira {
         display: flex;
         flex-direction: column;
         width: 90vw;
         align-items: center;
-        
     }
     .img-topo {
         margin: 20px 20px;
@@ -148,7 +144,6 @@ figcaption p {
         padding: 0px;
     }
     .cne-p-sobre {
-       
         text-align: justify;
         font-size: 18px;
         line-height: 20px;
@@ -158,10 +153,10 @@ figcaption p {
         margin-top: 40px;
     }
     .div-principal {
-            margin: auto;
-            width: 80%;
-            height: 250px;
-            padding: 0px;
+        margin: auto;
+        width: 80%;
+        height: 250px;
+        padding: 0px;
     }
     #pt-baixo-terceira {
         width: 87vw;
@@ -193,43 +188,32 @@ figcaption p {
     .cne-p {
         display: none;
     }
-
-    .conteudo-lista{
+    .conteudo-lista {
         margin-top: 40px;
         font-size: 12px;
         color: #653a00;
-
     }
-
-    .conteudo{
+    .conteudo {
         margin-top: 50px;
-    
-    }  
-   
-   
+    }
     .rd-pt-cima {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
     }
-    
-    .rd-segunda{
+    .rd-segunda {
         font-size: 12px;
     }
-    
-    
-    #pt-central h2{
-        text-align: justify;      
+    #pt-central h2 {
+        text-align: justify;
         font-size: 25px;
-
-        
     }
-    .conteudo-lista{
+    .conteudo-lista {
         margin-top: 15px;
         font-size: 20px;
         color: #653a00;
     }
-    .conteudo{
+    .conteudo {
         font-size: 18px;
         margin-top: 5px;
     }
@@ -240,83 +224,59 @@ figcaption p {
         position: absolute;
         top: -17%;
     }
-    .trn-pt-paciente{
+    .trn-pt-paciente {
         font-size: 10px;
         width: 100%;
     }
-    .rodape, .rodape-endereco{
-        display: none;
-    }
-    
-   
-   
 }
 
 @media (min-width: 668px) and (max-width: 1024px) {
     main {
         margin: 5%;
     }
-    
     .trn-bloco-conteudo {
         width: 90vw;
         margin: 1.7rem 0;
     }
-    .biografia>figure {   
-        
+    .biografia>figure {
         width: 130px;
         height: 130px;
-    }   
-
-    #pt-central h2{            
-        font-size: 32px;   
     }
-
-    .cne-p-sobre {   
-        font-size: 20px;    
-        text-align: justify;        
+    #pt-central h2 {
+        font-size: 32px;
+    }
+    .cne-p-sobre {
+        font-size: 20px;
+        text-align: justify;
         line-height: 20px;
         width: 90%;
         padding: 10px;
-        
     }
     .img-topo {
         margin: 100px 100px;
         width: auto;
         padding: 0px;
-        
     }
     .div-principal {
-        
         margin: 10px;
         width: 90%;
         align-items: center;
         height: 250px;
         padding: 0px;
     }
-
-    .conteudo-lista{
+    .conteudo-lista {
         margin-top: 40px;
         font-size: 30px;
         color: #653a00;
     }
-    .conteudo{
+    .conteudo {
         font-size: 30px;
         margin-top: 90px;
     }
-
     #pt-baixo-terceira {
-        
         display: flex;
         flex-direction: column;
         width: 90vw;
-        align-items: center;        
+        align-items: center;
     }
-
-  
-    
-    .rodape, .rodape-endereco{
-        display: none;
-    }
-    
-
 }
