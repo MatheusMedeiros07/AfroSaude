@@ -52,6 +52,7 @@ body {
     align-items: center;
     height: 200px;
     margin: 0 125px;
+    list-style: none;
 }
 
 .rd-redes-sociais img {
