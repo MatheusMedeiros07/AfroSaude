@@ -24,26 +24,32 @@
     grid-column-end: 2;
 }
 
-.mn-segunda,
-.mn-quarta {
-    background-position: 30% 49%;
-    background-size: cover;
-    border-radius: 35px;
-    display: flex;
-    height: 440px;
-    padding: auto;
-}
-
 .ap-segunda {
-    background-size: cover;
-    display: table;
+    position: relative;
     padding: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 2fr;
+    max-height: 530px;
+}
+
+.ap-segunda-2 {
+    position: relative;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    max-height: 530px;
 }
 
 .ap-conteudo-bloco-primeira {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-radius: 35.05px;
+    box-sizing: border-box;
+}
+
+.ap-conteudo-bloco-primeira-2 {
     grid-column-start: 1;
     grid-column-end: 3;
     border-radius: 35.05px;
@@ -61,6 +67,7 @@
     color: #8b5000;
     height: 70px;
     width: 200px;
+    margin-top: 30px;
 }
 
 .ap-txt-h1,
@@ -71,7 +78,7 @@
     font-weight: 500;
     font-size: 36px;
     line-height: 45px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .ap-txt-h1 {
@@ -86,7 +93,35 @@
 }
 
 .mn-segunda {
-    background-image: url(../img/medico.png);
+    border-radius: 35px;
+    max-height: 100%;
+    max-width: 100%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.mn-segunda img {
+    height: 550px;
+    width: 100%;
+    border-radius: 35px;
+    max-width: 1270px;
+}
+
+.mn-quarta {
+    border-radius: 35px;
+    max-height: 100%;
+    max-width: 100%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.mn-quarta img {
+    height: 550px;
+    width: 100%;
+    border-radius: 35px;
+    max-width: 1270px;
 }
 
 #pt-cima-terceira,
@@ -121,39 +156,6 @@
     margin: 20px 0;
 }
 
-.conteudo-paciente,
-.conteudo-profissional,
-.conteudo-vantagem,
-.conteudo-vantagens,
-.conteudo-facilidade {
-    color: #653a00;
-    line-height: 35px;
-    font-family: Quicksand;
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.conteudo-paciente {
-    padding: 1px 50px;
-}
-
-.conteudo-profissional {
-    padding: 1px 80px;
-}
-
-.conteudo-vantagem {
-    padding: 0px 40px;
-}
-
-.conteudo-vantagens {
-    padding: 10px 25px;
-}
-
-.conteudo-facilidade {
-    padding: 45px 50px;
-}
-
 .trn-bloco-conteudo {
     background-color: #f8f7f7;
     border-radius: 35px;
@@ -162,10 +164,6 @@
     height: 390px;
     position: relative;
     width: 33%;
-}
-
-.mn-quarta {
-    background-image: url(../img/medica.png);
 }
 
 .qnt-bloco-conteudo {
@@ -228,10 +226,9 @@
 }
 
 .sxt-primeiro-bloco h3 {
-    color: #653a00;
+    color: #323131;
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    font-style: italic;
+    font-size: 36px;
     font-weight: lighter;
     text-align: center;
 }
@@ -249,9 +246,8 @@
 }
 
 .sxt-segundo-bloco p {
-    color: #653a00;
+    color: #323131;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
     font-size: 18px;
     margin: 25px;
 }
@@ -275,8 +271,8 @@
 
 .stm-blog-img img {
     border-radius: 35px;
-    max-height: 180px;
-    max-width: 390px;
+    max-height: 50%;
+    max-width: 100%;
     position: absolute;
 }
 
@@ -308,64 +304,7 @@
 
 /* ipad */
 
-@media (min-width: 668px) and (max-width: 1024px) {
-    .ap-segunda {
-        transform: translateY(700px);
-    }
-    .mn-segunda,
-    .mn-quarta {
-        margin-left: 4rem;
-        background-position: right;
-        height: 100vw;
-        margin-left: 10vw;
-    }
-    .trn-bloco-conteudo {
-        width: 90vw;
-        margin: 1.7rem 0;
-    }
-    .qnt-bloco-conteudo {
-        width: 100%;
-    }
-    #pt-baixo-quinta {
-        display: grid;
-        grid-gap: 1rem;
-        grid-template-areas: "cima" "baixo";
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        margin: 0 1.3rem;
-    }
-    .qnt-pt-imagem {
-        grid-column: 1/2;
-        grid-row: 1/1;
-    }
-    .qnt-pt-comunidade {
-        grid-column: 2/3;
-        grid-row: 1/1;
-    }
-    .qnt-pt-vantagem {
-        grid-column: 1/2;
-        grid-row: 2/2;
-    }
-    .qnt-pt-facilidade {
-        grid-column: 2/3;
-        grid-row: 2/2;
-    }
-    #pt-baixo-terceira {
-        align-items: center;
-        flex-direction: column;
-    }
-    .rd-pt-cima {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .divisao-rodape {
-        margin: 25px 0;
-    }
-    .rodape-endereco {
-        font-size: 1rem;
-    }
-}
+@media (min-width: 668px) and (max-width: 1024px) {}
 
 
 /* celular */
@@ -374,46 +313,189 @@
     main {
         margin: 0px auto;
     }
-    .ap-conteudo-bloco-primeira h1 {
-        font-size: 23px;
-        width: 300px;
-        padding: 0px;
-        text-align: center;
-        margin-top: 180px;
-    }
-    .ap-conteudo-bloco-primeira p {
-        font-size: 18px;
-        line-height: 20px;
-        width: 300px;
-        padding: 0px;
-        text-align: center;
-    }
     .divisao-principal {
-        margin: 20px 20px;
+        margin: 10px 0px;
         width: auto;
         padding: 0px;
+        height: 100%;
     }
     .mn-primeira {
         height: 200px;
     }
-    .mn-segunda {
-        background-size: contain;
-        background-repeat: no-repeat;
-        height: 180px;
-        margin-bottom: 250px;
-    }
+    .mn-segunda,
     .mn-quarta {
-        background-size: contain;
-        background-repeat: no-repeat;
-        height: 180px;
-        margin-bottom: 250px;
+        height: 100%;
+        width: 100%;
+    }
+    .mn-segunda img,
+    .mn-quarta img {
+        height: 100%;
+        width: 100%;
+        border-radius: 35px;
+        max-height: 280px;
+        padding: 20px;
+    }
+    .ap-segunda {
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+        background-size: top;
+        display: list-item;
+        padding: 10px;
+        max-height: 600px;
+    }
+    .ap-segunda-2 {
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+        background-size: top;
+        display: list-item;
+        padding: 10px;
+        max-height: 900px;
+    }
+    .ap-conteudo-bloco-primeira h1,
+    .ap-conteudo-bloco-primeira-2 h1 {
+        width: 100%;
+        font-size: 25px;
+        padding: 10px;
+        margin-top: 270px;
+    }
+    .ap-conteudo-bloco-primeira p {
+        width: 100%;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+        padding: 10px;
+        margin: 0;
+    }
+    .ap-conteudo-bloco-primeira h1 {
+        width: 100%;
+        font-size: 25px;
+        padding: 10px;
+        margin-top: 300px;
+    }
+    .ap-conteudo-bloco-primeira-2 p {
+        width: 100%;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+        padding: 10px;
+        margin: 0;
+    }
+    .ap-txt-p {
+        font-size: 18px;
+        line-height: 45px;
+    }
+    .ap-conteudo-bloco-segunda {
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
     .ap-conteudo-bloco-segunda>button {
         border: 2px solid #a07438;
         border-radius: 17px;
         color: #8b5000;
-        height: 45px;
+        height: 50px;
         width: 120px;
         font-size: 18px;
+    }
+    .ap-txt-h1,
+    #pt-central-terceira h2,
+    #pt-central-quinta h2,
+    #pt-central-sexta h2,
+    #pt-central-setima h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+    #pt-baixo-terceira {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+        height: 1000px;
+        grid-gap: 20px 20px;
+        padding: 20px;
+    }
+    .trn-pt-paciente,
+    .trn-pt-profissional,
+    .trn-pt-vantagem {
+        font-size: 10px;
+        width: 100%;
+    }
+    #pt-baixo-quinta {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+        grid-gap: 20px 20px;
+        padding: 20px;
+    }
+    .qnt-pt-imagem {
+        width: 100%;
+        height: 300px;
+    }
+    .qnt-pt-comunidade,
+    .qnt-pt-vantagem,
+    .qnt-pt-facilidade {
+        font-size: 10px;
+        width: 100%;
+        height: 300px;
+    }
+    .stm-blog-txt,
+    #pt-cima-terceira,
+    #pt-cima-quinta,
+    #pt-cima-sexta,
+    #pt-cima-setima p {
+        text-align: center;
+    }
+    .trn-bloco-conteudo p,
+    .qnt-bloco-conteudo p {
+        color: white;
+        font-size: 23px;
+        left: 10%;
+        position: absolute;
+        top: -17%;
+    }
+    .sxt-segundo-bloco p {
+        font-size: 18px;
+    }
+    .sxt-primeiro-bloco h3 {
+        font-size: 23px;
+    }
+    .stm-blog-img {
+        display: flex;
+        top: 0;
+        width: 100%;
+    }
+    .stm-blog-img img {
+        position: relative;
+        height: 270px;
+        width: 100%;
+        border-radius: 35px;
+    }
+    #pt-baixo-setima {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+        grid-gap: 20px 20px;
+        padding: 20px;
+    }
+    .stm-bloco-blog {
+        font-size: 23px;
+        width: 100%;
+        height: 530px;
+    }
+    .stm-blog-txt h4 {
+        font-size: 23px;
+        width: 100%;
+    }
+    .stm-blog-txt p {
+        font-size: 18px;
+        width: 100%;
+        padding-right: 30px;
     }
 }
