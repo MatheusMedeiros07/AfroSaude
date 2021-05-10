@@ -65,6 +65,7 @@ body {
     display: flex;
     justify-content: space-around;
     position: relative;
+    list-style: none;
 }
 
 .rodape-endereco {
