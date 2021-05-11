@@ -222,6 +222,12 @@
     padding-top: 30px;
 }
 
+.conteudo-lista-comunidade,
+.conteudo-lista-vantagens,
+.conteudo-lista-facilidade {
+    margin-top: 40px;
+}
+
 li {
     color: #653a00;
     margin-left: 50px;
