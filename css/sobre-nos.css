@@ -22,29 +22,50 @@
     background-image: url(../img/medico.png);
 }
 
-#texto-sobre {
-    margin: 320px 0 0 30px;
-    font-size: 50px;
+#texto-sobre h2 {
+    margin-left: 30px;
+    margin-top: -100px;
+    margin-bottom: 40px;
+    font-size: 35px;
     color: #653a00;
+}
+
+.trn-pt-missao {
+    border-color: #fdb048;
+}
+
+.trn-pt-visao {
+    border-color: #e88b00;
+}
+
+.trn-pt-valores {
+    border-color: #653a00;
+}
+
+#pt-baixo-setima {
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
 }
 
 .conteudo-lista-valores,
 .conteudo-lista-missão,
 .conteudo-lista-visão {
     color: #653a00;
-    font-weight: bold;
-    font-family: Quicksand;
-    font-size: 25px;
-    margin-top: 3px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 0px;
 }
 
 .conteudo-lista-missão,
 .conteudo-lista-visão {
-    padding-top: 90px;
+    margin-top: 120px;
 }
 
 .conteudo-lista-valores {
-    padding-top: 25px;
+    padding-top: 40px;
 }
 
 li {
@@ -82,8 +103,7 @@ li {
 .bc-equipe {
     display: flex;
     flex-wrap: wrap;
-    height: 590px;
-    margin: 1rem 0;
+    height: 490px;
     width: 100%;
 }
 
@@ -91,7 +111,7 @@ li {
     display: flex;
     flex-direction: column;
     align-content: center;
-    width: 24%;
+    width: 25%;
 }
 
 .biografia>figure {
@@ -135,9 +155,6 @@ figcaption p {
         width: 90vw;
         align-items: center;
     }
-    #pt-baixo-setima {
-        width: 360px;
-    }
     .img-topo {
         margin: 20px 20px;
         width: auto;
@@ -147,10 +164,11 @@ figcaption p {
         text-align: justify;
         font-size: 18px;
         line-height: 20px;
-        width: 310px;
-        padding: 0px;
-        margin: auto;
-        margin-top: 40px;
+        width: 100%;
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-top: 20px;
+        margin: 0;
     }
     .div-principal {
         margin: auto;
@@ -173,7 +191,9 @@ figcaption p {
         grid-template-columns: 45vw 45vw;
         grid-template-rows: 200px 200px;
         height: auto;
-        margin: -5px;
+        margin: 0;
+        width: 100%;
+        height: 420px;
     }
     .cne-p {
         display: none;
@@ -183,6 +203,7 @@ figcaption p {
     }
     .biografia {
         width: 100%;
+        height: 300px;
     }
     .biografia>figure {
         margin-left: 27%;
@@ -207,13 +228,16 @@ figcaption p {
     .conteudo-lista-missão,
     .conteudo-lista-visão {
         font-size: 18px;
-    }
-    .conteudo-lista-valores {
-        margin-top: -6px;
+        text-align: center;
     }
     .conteudo-lista-missão,
     .conteudo-lista-visão {
-        margin-top: -10px;
+        margin-top: 40px;
+        padding: 30px;
+    }
+    .conteudo-lista-valores {
+        margin-top: 15px;
+        padding: 10px;
     }
     .trn-bloco-conteudo p {
         color: white;
@@ -222,22 +246,83 @@ figcaption p {
         position: absolute;
         top: -17%;
     }
-    .trn-pt-paciente {
-        font-size: 10px;
-        width: 100%;
-    }
-    .stm-blog-txt {
-        margin-top: -60px;
-    }
-    .stm-blog-img {
-        display: table-cell;
-    }
     .rodape,
     .rd-pt-baixo {
         display: none;
     }
     .img-topo {
         background-position: right center;
+    }
+    #texto-sobre h2 {
+        margin: 0;
+        margin-top: 30px;
+        font-size: 25px;
+        color: #653a00;
+        width: 100%;
+        text-align: center;
+    }
+    #pt-baixo-setima {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+        grid-gap: 20px 20px;
+        padding: 20px;
+    }
+    #pt-central-setima h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .qnt-pt-missao {
+        border-color: #fdb048;
+    }
+    .qnt-pt-visao {
+        border-color: #e88b00;
+    }
+    .qnt-pt-valores {
+        border-color: #653a00;
+    }
+    .trn-pt-missao,
+    .trn-pt-visao,
+    .trn-pt-valores {
+        font-size: 10px;
+        width: 100%;
+    }
+    .stm-bloco-blog {
+        border-radius: 35px;
+        background-color: #f8f7f7;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        height: 390px;
+        width: 390px;
+    }
+    .stm-blog-img img {
+        border-radius: 35px;
+        max-height: 195px;
+        max-width: 390px;
+        position: absolute;
+    }
+    .stm-blog-txt {
+        padding-top: 20px;
+        position: relative;
+    }
+    .stm-blog-txt h4 {
+        font-size: 18px;
+        font-weight: bolder;
+        margin: 0px;
+    }
+    .stm-blog-txt p {
+        font-size: 14px;
+        font-weight: lighter;
+        margin: 0 15px;
+    }
+    .stm-blog-txt a {
+        color: black;
+        position: absolute;
+        right: 10%;
+        bottom: 3%;
+        text-decoration: none;
     }
 }
 

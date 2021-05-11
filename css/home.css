@@ -24,7 +24,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 2fr;
-    max-height: 530px;
+    max-height: 1050px;
 }
 
 .ap-segunda-2 {
@@ -75,12 +75,25 @@
     margin-top: 20px;
 }
 
-.ap-txt-h1 {
+.ap-txt-h1-2,
+.ap-txt-p-2 {
+    color: #ffffff;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 45px;
+    margin-top: 20px;
+}
+
+.ap-txt-h1,
+.ap-txt-h1-2 {
     font-size: 36px;
     line-height: 45px;
 }
 
 .ap-txt-p,
+.ap-txt-p-2,
 .ap-conteudo-bloco-segunda>button {
     font-size: 24px;
     line-height: 30px;
@@ -96,7 +109,7 @@
 }
 
 .mn-segunda img {
-    height: 550px;
+    height: 750px;
     width: 100%;
     border-radius: 35px;
     max-width: 1270px;
@@ -133,6 +146,11 @@
 #pt-cima-quinta p,
 #pt-cima-sexta p,
 #pt-cima-setima p {
+    font-size: 16px;
+}
+
+#pt-cima-terceira p {
+    margin-top: 60px;
     font-size: 16px;
 }
 
@@ -220,6 +238,12 @@
     font-weight: 500;
     margin-top: 0px;
     padding-top: 30px;
+}
+
+.conteudo-lista-comunidade,
+.conteudo-lista-vantagens,
+.conteudo-lista-facilidade {
+    margin-top: 40px;
 }
 
 li {
@@ -371,7 +395,7 @@ li {
         background-size: top;
         display: list-item;
         padding: 10px;
-        max-height: 900px;
+        max-height: 1000px;
     }
     .ap-conteudo-bloco-primeira h1 {
         width: 100%;
@@ -401,7 +425,12 @@ li {
         padding: 10px;
         margin: 0;
     }
-    .ap-txt-p {
+    .ap-txt-h1-2,
+    .ap-txt-p-2 {
+        color: #8b5000;
+    }
+    .ap-txt-p,
+    .ap-txt-p-2 {
         font-size: 18px;
         line-height: 45px;
     }
@@ -419,6 +448,7 @@ li {
         font-size: 18px;
     }
     .ap-txt-h1,
+    .ap-txt-h1-2,
     #pt-central-terceira h2,
     #pt-central-quinta h2,
     #pt-central-sexta h2,
@@ -500,7 +530,9 @@ li {
     .stm-blog-img img {
         height: 100%;
         width: 100%;
-        position: absolute;
+        position: relative;
+        max-width: 100%;
+        max-height: 100%;
     }
     .stm-blog-img {
         height: 100%;
@@ -514,5 +546,10 @@ li {
         font-size: 18px;
         width: 100%;
         padding-right: 30px;
+    }
+    .conteudo-lista-comunidade,
+    .conteudo-lista-vantagens,
+    .conteudo-lista-facilidade {
+        margin-top: 0px;
     }
 }
