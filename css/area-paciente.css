@@ -392,6 +392,10 @@ address {
         height: 200px;
         margin: 4%;
     }
+    
+    #ap-baixo-sexta {
+        margin: 4%;
+    }
     .ap-segunda1 {
         /* background-position: 745px center;
         height: 600px; */
@@ -472,7 +476,7 @@ address {
         width: 100%;
         border-radius: 35px;
     }
-    .ap-baixo-setima {
+    #ap-baixo-setima {
         display: flex;
         justify-content: center;
         flex-direction: column;

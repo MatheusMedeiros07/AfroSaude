@@ -32,8 +32,8 @@
     padding: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 2fr;
-    max-height: 530px;
+    grid-template-rows: 1fr 3fr;
+    max-height: 780px;
 }
 
 .ap-conteudo-bloco-primeira {
@@ -125,7 +125,7 @@
 }
 
 .mn-quarta img {
-    height: 550px;
+    height: 800px;
     width: 100%;
     border-radius: 35px;
     max-width: 1270px;
