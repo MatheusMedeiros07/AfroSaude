@@ -341,51 +341,29 @@
     border-radius: 15px;
 }
 
-.texto-anual {
-    position: absolute;
-    width: 230px;
-    height: 15px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
-    margin-left: 27.60%;
-    margin-top: 35px;
-    color: #653A00;
-}
-
-.cancelar-anual {
-    width: 140px;
-    height: 21px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 10px;
-    line-height: 18px;
-    margin-left: 33%;
-    margin-top: 5px;
-    text-align: center;
-    color: #653A00;
-}
-
 @media screen and (max-width: 1200px) {
     .grade-blog {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         margin: 2rem;
     }
-}
-
-@media screen and (max-width: 850px) {
-    .grade-blog-item {
-        background-color: #653A00;
-        width: 340px;
-        height: 250px;
-        border-radius: 35px;
-        margin: 1rem auto;
+    @media screen and (max-width: 850px) {
+        .grade-blog-item {
+            background-color: #653A00;
+            width: 340px;
+            height: 250px;
+            border-radius: 35px;
+            margin: 1rem auto;
+        }
+        .primeiro-container {
+            text-align: center;
+            width: 80vw;
+            margin-left: 4rem;
+        }
     }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (min-width:471px) and (max-width:770px) {
     .grade-blog-item:nth-child(n+4) {
         display: none;
     }
@@ -411,10 +389,42 @@
     }
     .primeiro-container {
         text-align: center;
-        width: 80vw;
+        width: 70vw;
     }
     .primeiro-container>p,
     .primeiro-container>h1 {
         font-size: 20px;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 470px) {
+    .grade-blog-item:nth-child(n+4) {
+        display: none;
+    }
+    .grade-blog {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        margin: 2rem;
+    }
+    .primeiro-container {
+        text-align: center;
+        margin-left: 2.5rem;
+    }
+    .primeiro-container>p,
+    .primeiro-container>h1 {
+        font-size: 15px;
+    }
+    .conteudo-segunda-secao {
+        width: 70vw;
+        height: 100px;
+    }
+    .conteudo-segunda-secao>h1,
+    .conteudo-segunda-secao>p {
+        font-size: 16px;
+        margin-top: -10px;
+    }
+    .conteudo-segunda-secao>a {
+        padding: 0.5rem;
     }
 }
