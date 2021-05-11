@@ -339,7 +339,7 @@ address {
     text-align: center;
 }
 
-@media (min-width: 770px) and (max-width: 1024px) {
+@media (min-width: 669px) and (max-width: 1024px) {
     .ap-segunda1,
     .ap-quarta {
         margin-left: 10%;
@@ -500,8 +500,6 @@ address {
         padding-right: 30px;
     }
 
-    
-
-
+        
     
 }
