@@ -237,6 +237,28 @@ div {
     display: flex;
 }
 
+.conteudo-lista-agendamento,
+.conteudo-lista-telemedicina,
+.conteudo-lista-prontuario {
+    color: #653a00;
+    font-weight: bold;
+    font-family: Quicksand;
+    font-size: 25px;
+    margin-top: 3px;
+}
+
+.conteudo-lista-agendamento,
+.conteudo-lista-telemedicina,
+.conteudo-lista-prontuario {
+    padding-top: 100px;
+}
+
+li {
+    color: #653a00;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
 .sxt-primeiro-bloco {
     display: flex;
     align-items: center;
@@ -366,11 +388,9 @@ address {
         padding: 0px;
         height: 100%;
     }
-
     .ap-primeira {
         height: 200px;
     }
-
     .ap-segunda1 {
         margin-left: 4rem;
         background-position: right;
@@ -378,7 +398,6 @@ address {
         width: 80vw;
         transform: none;
     }
-
     .ap-txt-h1,
     #ap-central-terceira h2,
     #ap-central-quinta h2,
@@ -397,14 +416,12 @@ address {
         grid-gap: 20px 20px;
         padding: 20px;
     }
-
     .trn-ap-paciente,
     .trn-ap-profissional,
     .trn-ap-vantagem {
         font-size: 10px;
         width: 100%;
     }
-
     .stm-blog-txt,
     #ap-cima-terceira,
     #ap-cima-quinta,
@@ -412,15 +429,13 @@ address {
     #ap-cima-setima p {
         text-align: center;
     }
-
     .trn-bloco-conteudo p {
         color: white;
         font-size: 23px;
         left: 10%;
         position: absolute;
         top: -17%;
-}
-
+    }
     .sxt-segundo-bloco p {
         font-size: 18px;
     }
@@ -438,7 +453,6 @@ address {
         width: 100%;
         border-radius: 35px;
     }
-
     .ap-baixo-setima {
         display: flex;
         justify-content: center;
@@ -448,7 +462,6 @@ address {
         grid-gap: 20px 20px;
         padding: 20px;
     }
-
     .stm-bloco-blog {
         font-size: 23px;
         width: 100%;
@@ -463,5 +476,4 @@ address {
         width: 100%;
         padding-right: 30px;
     }
-    
 }

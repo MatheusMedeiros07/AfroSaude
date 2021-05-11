@@ -28,6 +28,31 @@
     color: #653a00;
 }
 
+.conteudo-lista-valores,
+.conteudo-lista-missão,
+.conteudo-lista-visão {
+    color: #653a00;
+    font-weight: bold;
+    font-family: Quicksand;
+    font-size: 25px;
+    margin-top: 3px;
+}
+
+.conteudo-lista-missão,
+.conteudo-lista-visão {
+    padding-top: 90px;
+}
+
+.conteudo-lista-valores {
+    padding-top: 25px;
+}
+
+li {
+    color: #653a00;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
 .conteudo {
     color: #653a00;
     line-height: 35px;

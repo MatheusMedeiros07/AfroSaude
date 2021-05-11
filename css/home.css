@@ -214,6 +214,42 @@
     border-color: #653a00;
 }
 
+.conteudo-lista-paciente,
+.conteudo-lista-profissionais,
+.conteudo-lista-vantagem,
+.conteudo-lista-comunidade,
+.conteudo-lista-vantagens,
+.conteudo-lista-facilidade {
+    color: #653a00;
+    font-weight: bold;
+    font-family: Quicksand;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.conteudo-lista-paciente {
+    padding-top: 15px;
+}
+
+.conteudo-lista-profissionais,
+.conteudo-lista-comunidade {
+    padding-top: 20px;
+}
+
+.conteudo-lista-vantagens {
+    padding-top: 30px;
+}
+
+.conteudo-lista-facilidade {
+    padding-top: 85px;
+}
+
+li {
+    color: #653a00;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
 #pt-baixo-sexta {
     background-color: #f8f7f7;
     border-radius: 35px;
