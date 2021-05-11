@@ -364,6 +364,10 @@
 }
 
 @media screen and (min-width:471px) and (max-width:770px) {
+    .principais-temas-mobile {
+        font-size: 20px;
+        width: 100vw;
+    }
     .grade-blog-item:nth-child(n+4) {
         display: none;
     }
@@ -399,13 +403,27 @@
 }
 
 @media (max-width: 470px) {
+    .principais-temas {
+        margin-top: 30px;
+    }
+    .principais-temas-mobile,
+    .afro-conectar,
+    .afro-assine {
+        text-align: center;
+        width: 100vw;
+    }
+    .main-segunda {
+        margin: 20px;
+        width: calc(100vw - 40px);
+        height: calc(auto - 40px)
+    }
     .grade-blog-item:nth-child(n+4) {
         display: none;
     }
     .grade-blog {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
-        margin: 2rem;
+        margin: 2.5rem 1rem;
     }
     .primeiro-container {
         text-align: center;
@@ -422,9 +440,12 @@
     .conteudo-segunda-secao>h1,
     .conteudo-segunda-secao>p {
         font-size: 16px;
-        margin-top: -10px;
+        margin-top: -15px;
     }
     .conteudo-segunda-secao>a {
         padding: 0.5rem;
+    }
+    .trn-bloco-conteudo {
+        width: 90vw;
     }
 }

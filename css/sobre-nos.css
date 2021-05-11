@@ -246,10 +246,6 @@ figcaption p {
         position: absolute;
         top: -17%;
     }
-    .rodape,
-    .rd-pt-baixo {
-        display: none;
-    }
     .img-topo {
         background-position: right center;
     }
