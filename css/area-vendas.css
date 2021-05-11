@@ -172,6 +172,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 20px 0;
+    height: auto;
 }
 
 .trn-bloco-conteudo {
@@ -366,72 +367,6 @@
     color: #653A00;
 }
 
-
-/* Cabeçalho Responsivo */
-
-.bs-example {
-    width: 100vw;
-}
-
-.navbar-expand-md {
-    padding: 2vw 7vw;
-}
-
-.navbar-collapse {
-    position: relative;
-}
-
-.navbar-nav {
-    position: relative;
-    left: 25%;
-}
-
-.nav-link {
-    font-size: 20px;
-    margin: 0 1rem;
-}
-
-.navbar-item .active {
-    border: 3px solid tomato;
-}
-
-.navbar-brand img {
-    margin-left: 10rem;
-    width: calc(390px - 10rem);
-    height: 101px;
-}
-
-.nav-item-opcao {
-    color: #653A00;
-    font-size: 20px;
-    margin: 1rem;
-}
-
-.nav-item-opcao:hover {
-    color: black;
-}
-
-.nav-item-botao {
-    border: 3px solid #653A00;
-    border-radius: 15px;
-    padding: 0.5rem;
-}
-
-@media screen and (max-width: 1200px) {
-    .nav-item-botao {
-        border: none;
-        padding: 0;
-    }
-    .navbar-brand img {
-        margin-left: 0;
-        width: 250px;
-        height: 101px;
-    }
-}
-
-
-/* Fim do Cabeçalho Responsivo*/
-
 @media screen and (max-width: 1200px) {
     .grade-blog {
         grid-template-columns: 1fr 1fr;
@@ -473,5 +408,13 @@
     .divisao-principal {
         margin: 1rem;
         width: calc(100vw - 2rem);
+    }
+    .primeiro-container {
+        text-align: center;
+        width: 80vw;
+    }
+    .primeiro-container>p,
+    .primeiro-container>h1 {
+        font-size: 20px;
     }
 }
