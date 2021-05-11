@@ -57,62 +57,40 @@
     color: #8B5000;
 }
 
-.ap-segunda {
-    background-size: cover;
-    display: table;
-    padding: 30px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 2fr;
-}
-
-.ap-conteudo-bloco-primeira {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    border-radius: 35.05px;
-    box-sizing: border-box;
-}
-
-.ap-conteudo-bloco-segunda {
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
-
-.ap-conteudo-bloco-segunda>button {
-    border: 2px solid #a07438;
-    border-radius: 20px;
-    color: #8b5000;
-    margin-top: 4rem;
-    height: 70px;
-    width: 200px;
-}
-
-.ap-txt-h1,
-.ap-txt-p {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 45px;
-    margin-top: 10px;
-}
-
-.ap-txt-h1 {
-    font-size: 36px;
-    line-height: 45px;
-}
-
-.ap-txt-p,
-.ap-conteudo-bloco-segunda>button {
-    font-size: 24px;
-    line-height: 30px;
-}
-
 .main-segunda {
     background-image: url(../img/medica.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 30% 45%;
     border-radius: 35px;
+    height: 390px;
+}
+
+.conteudo-segunda-secao {
+    padding: 4rem 2rem;
+    width: 600px;
+}
+
+.conteudo-segunda-secao>p {
+    font-size: 24px;
+}
+
+.conteudo-segunda-secao>a {
+    background-color: #F8F7F7;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    display: inline-block;
+    color: #8B5000;
+    padding: 1rem 2.5rem;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.conteudo-segunda-secao>a:hover {
+    border-color: #fdb048;
+    box-shadow: 1px 1px 2px #fdb048;
+    text-shadow: 1px 1px 1px #8B5000;
+    transition: .5s;
 }
 
 .principais-temas {
@@ -486,5 +464,14 @@
         margin: 1rem auto;
         width: calc(290px -2rem);
         height: 200px;
+    }
+    .main-segunda {
+        margin: 1rem auto;
+        width: calc(290px - 1rem);
+        height: 180px;
+    }
+    .divisao-principal {
+        margin: 1rem;
+        width: calc(100vw - 2rem);
     }
 }
