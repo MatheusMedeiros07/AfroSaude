@@ -339,6 +339,10 @@ address {
     text-align: center;
 }
 
+.sxt-primeiro-bloco {
+    height: 390px;
+}
+
 @media (min-width: 770px) and (max-width: 1024px) {
     .ap-segunda1,
     .ap-quarta {
@@ -392,7 +396,6 @@ address {
         height: 200px;
         margin: 4%;
     }
-    
     #ap-baixo-sexta {
         margin: 4%;
     }
@@ -402,25 +405,21 @@ address {
         margin: 4%;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 0.85fr 0fr;
-        background-image: none; 
+        background-image: none;
     }
-
-    .ap-conteudo-bloco-primeira  {
+    .ap-conteudo-bloco-primeira {
         grid-column-start: 1;
         grid-column-end: 5;
         background-color: #653a00;
     }
-
-    .ap-conteudo-bloco-segunda  {
+    .ap-conteudo-bloco-segunda {
         grid-column-start: 2;
         grid-column-end: 4;
     }
-    
     .ap-conteudo-bloco-primeira h1 {
         margin: 0;
         padding: 0;
     }
-
     .ap-txt-h1,
     #ap-central-terceira h2,
     #ap-central-quinta h2,
@@ -499,9 +498,4 @@ address {
         width: 100%;
         padding-right: 30px;
     }
-
-    
-
-
-    
 }
