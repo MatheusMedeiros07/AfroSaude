@@ -53,8 +53,6 @@ li {
     margin-right: 10px;
 }
 
-
-
 .tm-img {
     background-position: center;
     background-size: cover;
@@ -96,7 +94,7 @@ li {
     width: 24%;
 }
 
-.biografia figure {
+.biografia>figure {
     margin: 2rem 2.5rem;
 }
 
@@ -131,15 +129,13 @@ figcaption p {
 }
 
 @media (max-width: 668px) {
-   
     #pt-baixo-terceira {
         display: flex;
         flex-direction: column;
         width: 90vw;
         align-items: center;
     }
-
-    #pt-baixo-setima{
+    #pt-baixo-setima {
         width: 360px;
     }
     .img-topo {
@@ -175,10 +171,10 @@ figcaption p {
     .bc-equipe {
         display: grid;
         grid-template-columns: 45vw 45vw;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 200px 200px;
+        height: auto;
         margin: -5px;
     }
-
     .cne-p {
         display: none;
     }
@@ -187,15 +183,12 @@ figcaption p {
     }
     .biografia {
         width: 100%;
-        
-        
     }
     .biografia>figure {
         margin-left: 27%;
         width: 50%;
-        height: 30%;        
-    }  
-  
+        height: 40%;
+    }
     .rd-pt-cima {
         display: flex;
         flex-direction: column;
@@ -209,23 +202,19 @@ figcaption p {
     #pt-cima-quinta p {
         text-align: center;
         font-size: 12px;
-        mar
-       
-    }    
-
+    }
     .conteudo-lista-valores,
     .conteudo-lista-missão,
     .conteudo-lista-visão {
-        font-size: 18px;        
+        font-size: 18px;
     }
-    .conteudo-lista-valores{
+    .conteudo-lista-valores {
         margin-top: -6px;
     }
     .conteudo-lista-missão,
     .conteudo-lista-visão {
         margin-top: -10px;
-    }   
-
+    }
     .trn-bloco-conteudo p {
         color: white;
         font-size: 23px;
@@ -237,21 +226,22 @@ figcaption p {
         font-size: 10px;
         width: 100%;
     }
-    .stm-blog-txt{
+    .stm-blog-txt {
         margin-top: -60px;
     }
-    .stm-blog-img{
-        display:table-cell;
+    .stm-blog-img {
+        display: table-cell;
     }
-    .rodape, .rd-pt-baixo{
+    .rodape,
+    .rd-pt-baixo {
         display: none;
+    }
+    .img-topo {
+        background-position: right center;
     }
 }
 
 @media (min-width: 668px) and (max-width: 1024px) {
-    main {
-        margin: 5%;
-    }
     .trn-bloco-conteudo {
         width: 90vw;
         margin: 1.7rem 0;
@@ -282,24 +272,22 @@ figcaption p {
         height: 250px;
         padding: 0px;
     }
-   
     #pt-baixo-terceira {
         display: flex;
         flex-direction: column;
         width: 90vw;
         align-items: center;
     }
-
     .conteudo-lista-valores,
     .conteudo-lista-missão,
     .conteudo-lista-visão {
-        font-size: 32px;        
+        font-size: 32px;
     }
-    .conteudo-lista-valores{
+    .conteudo-lista-valores {
         margin-top: 10px;
     }
     .conteudo-lista-missão,
     .conteudo-lista-visão {
         margin-top: 25px;
-    }   
+    }
 }

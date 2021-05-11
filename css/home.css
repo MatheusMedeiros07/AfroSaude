@@ -18,12 +18,6 @@
     padding: 10px 5px;
 }
 
-.mn-conteudo-bloco-primeira {
-    background-color: white;
-    grid-column-start: 2;
-    grid-column-end: 2;
-}
-
 .ap-segunda {
     position: relative;
     padding: 30px;
