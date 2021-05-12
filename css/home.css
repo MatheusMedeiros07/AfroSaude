@@ -182,7 +182,7 @@
     background-color: #f8f7f7;
     border-radius: 35px;
     display: flex;
-    height: auto;
+    height: 370px;
     position: relative;
     width: 24%;
 }
@@ -191,7 +191,6 @@
     background-image: url(../img/familia.png);
     background-position: 45% 49%;
     background-size: cover;
-    height: 458px;
     width: 300px;
 }
 
