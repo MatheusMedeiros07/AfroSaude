@@ -377,6 +377,12 @@ address {
     .rodape-endereco {
         font-size: 1rem;
     }
+    .sxt-primeiro-bloco h3 { 
+        font-size: 20px;
+    }
+    .sxt-segundo-bloco p { 
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 668px) {
