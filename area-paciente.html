@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="file:///E:/fontawesome/css/all.css">
+    <script src="file:///E:/jquery.js"></script>
+    <link rel="stylesheet" href="./css/cabecalho.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/area-paciente.css">
@@ -20,24 +24,18 @@
 
 <body>
     <header id="cabecalho-container">
-        <nav class="cabecalho" href="javascript:void(0)">
-            <div class="divisao-cabecalho cb-primeira">
-                <a href="index.html"><img src="./img/Logo - AfroSaúde/HORIZONTAL/HORIZONTAL_COLOR.png" alt="logo-cabeçalho"></a>
-            </div>
-            <div class="divisao-cabecalho cb-segunda">
-                <ul>
-                    <li>
-                        <a href="area-paciente.html">Para pacientes</a>
-                    </li>
-                    <li>
-                        <a href="area-vendas.html">Para profissionais</a>
-                    </li>
-                    <li>
-                        <a href="sobre-nos.html">Sobre nós</a>
-                    </li>
-                    <li><a href="#">Login/Cadastro</a></li>
-                </ul>
-            </div>
+        <nav class="cb-responsivo" href="javascript:void(0)">
+            <a class="cb-logo" href="index.html"><img src="./img/Logo - AfroSaúde/HORIZONTAL/HORIZONTAL_COLOR.png" alt="LOGO"></a>
+            <label for="btn" class="icon">
+            <span class="fa fa-bars"></span>
+          </label>
+            <input type="checkbox" id="btn">
+            <ul class="cb-responsivo-itens">
+                <li><a class="item-cabecalho" href="area-paciente.html">Para Pacientes</a></li>
+                <li><a class="item-cabecalho" href="area-vendas.html">Para Profissionais</a></li>
+                <li><a class="item-cabecalho" href="sobre-nos.html">Sobre Nós</a></li>
+                <li><a href="#">Login/Cadastro</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -267,7 +265,13 @@
 
     </footer>
 
-    <!-- <script>
+    <script>
+        $('.icon').click(function() {
+            $('span').toggleClass("cancel");
+        });
+    </script>
+
+    <script>
         window.onscroll = function() {
             myFunction()
         };
@@ -282,7 +286,7 @@
                 navbar.classList.remove("sticky");
             }
         }
-    </script> -->
+    </script>
 
 </body>
 

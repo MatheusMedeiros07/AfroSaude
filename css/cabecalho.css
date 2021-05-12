@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 header {
     margin: 0;
     padding: 0;
     user-select: none;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background: #f2f2f2;
+    background-color: white;
 }
 
 .cb-responsivo,
 .cb-responsivo-itens {
-    background: #f2f2f2;
+    background-color: white;
 }
 
 .cb-logo img {
