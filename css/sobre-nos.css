@@ -270,6 +270,14 @@ figcaption p {
         font-size: 25px;
         text-align: center;
     }
+    #pt-cima{
+        color: #653a00;
+        font-size: 16px;
+        margin-top: 20px;
+        font-size: 16px;
+        text-align: center;
+
+    }
     .qnt-pt-missao {
         border-color: #fdb048;
     }
@@ -365,7 +373,7 @@ figcaption p {
         font-size: 32px;
     }
     .conteudo-lista-valores {
-        margin-top: 10px;
+        margin-top: -10px;
     }
     .conteudo-lista-missão,
     .conteudo-lista-visão {
