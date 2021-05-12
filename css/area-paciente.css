@@ -340,7 +340,17 @@ address {
 }
 
 .sxt-primeiro-bloco {
-    height: 390px;
+    height: 300px;
+}
+
+.sxt-primeiro-bloco>h3 {
+    color: #653a00;
+    font-style: italic;
+}
+
+.sxt-segundo-bloco>p {
+    color: #653a00;
+    font-weight: bold;
 }
 
 @media (min-width: 770px) and (max-width: 1024px) {
