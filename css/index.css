@@ -130,9 +130,58 @@ footer {
 }
 
 
+/* ipad */
+
+@media (min-width: 750px) and (max-width: 1280px) {
+    .footer {
+        width: 100%;
+        margin: 0;
+    }
+    .rodape {
+        display: grid;
+        grid-template-rows: 1fr;
+        margin: 0 20px;
+        height: 220px;
+    }
+    .rd-pt-cima {
+        margin: 0;
+    }
+    .rd-pt-baixo {
+        width: 100%;
+    }
+    .rodape-endereco {
+        font-size: 18px;
+        text-align: center;
+        height: 100px;
+    }
+    .rd-primeira img {
+        width: 180px;
+    }
+    .rd-segunda>ul::before,
+    .rd-terceira>ul::before {
+        content: '';
+        display: flex;
+        height: 3px;
+        margin: 20px 0 20px 0;
+        width: auto;
+    }
+    .rd-segunda,
+    .rd-terceira {
+        height: 200px;
+        width: 167px;
+    }
+    .rd-segunda ul ul li,
+    .rd-terceira ul ul li,
+    .cb-segunda ul li {
+        list-style: none;
+        margin: 0;
+    }
+}
+
+
 /* celular */
 
-@media (max-width: 668px) {
+@media (max-width: 750px) {
     .footer {
         width: 100%;
     }
