@@ -177,11 +177,7 @@ figcaption p {
         padding: 0px;
     }
     #pt-baixo-terceira {
-        width: 85vw;
-    }
-    .trn-bloco-conteudo {
         width: 100%;
-        margin-right: -50px;
     }
     #pt-central-terceira {
         text-align: center;
@@ -209,14 +205,6 @@ figcaption p {
         margin-left: 27%;
         width: 50%;
         height: 40%;
-    }
-    .rd-pt-cima {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-    .rd-segunda {
-        font-size: 12px;
     }
     #pt-central h2,
     #pt-cima-setima p,
@@ -291,7 +279,7 @@ figcaption p {
         display: grid;
         grid-template-rows: 1fr 1fr;
         height: 390px;
-        width: 390px;
+        width: 100%;
     }
     .stm-blog-img img {
         border-radius: 35px;
