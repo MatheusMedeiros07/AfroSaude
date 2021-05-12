@@ -261,7 +261,7 @@ li {
 }
 
 .carousel-inner {
-    height: 250px;
+    height: 295px;
 }
 
 .sxt-segundo-bloco {
@@ -498,6 +498,12 @@ address {
         padding-right: 30px;
     }
 
-        
+    .sxt-primeiro-bloco h3 { 
+        font-size: 18px;
+    }
+    .sxt-segundo-bloco p { 
+        font-size: 12px;
+    }
+    
     
 }
