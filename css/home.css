@@ -136,7 +136,6 @@
 #pt-central-terceira,
 #pt-cima-quinta,
 #pt-central-quinta,
-#pt-cima-sexta,
 #pt-central-sexta,
 #pt-cima-setima,
 #pt-central-setima {
@@ -145,7 +144,6 @@
 
 #pt-cima-terceira p,
 #pt-cima-quinta p,
-#pt-cima-sexta p,
 #pt-cima-setima p {
     font-size: 16px;
 }
@@ -243,7 +241,7 @@
 .conteudo-lista-comunidade,
 .conteudo-lista-vantagens,
 .conteudo-lista-facilidade {
-    margin-top: 40px;
+    margin-top: 12px;
 }
 
 li {
@@ -490,7 +488,6 @@ li {
     .stm-blog-txt,
     #pt-cima-terceira,
     #pt-cima-quinta,
-    #pt-cima-sexta,
     #pt-cima-setima p {
         text-align: center;
     }
