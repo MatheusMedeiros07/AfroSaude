@@ -129,6 +129,19 @@ footer {
     z-index: 3;
 }
 
+.painel-carousel {
+    position: absolute;
+    bottom: -7%;
+}
+
+.painel-carousel>li {
+    background-color: #ffb24a;
+}
+
+.painel-carousel>.active {
+    background-color: #653a00;
+}
+
 
 /* ipad */
 
