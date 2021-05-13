@@ -177,3 +177,13 @@ p {
     font-size: 30px;
     font-weight: 500;
 }
+
+@media (max-width: 470px) {
+    .cb-logo img {
+        height: 50px;
+        width: 135px;
+    }
+    .icon {
+        margin: 10px 40px 0 0;
+    }
+}
