@@ -333,9 +333,136 @@ li {
 }
 
 
-/* ipad */
+/* ipad 2 */
 
-@media (min-width: 668px) and (max-width: 1024px) {}
+@media (min-width: 668px) and (max-width: 1260px) {
+    .main-container {
+        background-color: #ffffff;
+        margin-top: 200px;
+        list-style: none;
+    }
+    .ap-segunda {
+        max-height: 400px;
+        width: 100%;
+        margin: 0px;
+        background-size: top;
+        padding: 20px;
+    }
+    .ap-segunda-2 {
+        max-height: 540px;
+        width: 100%;
+        margin: 0px;
+        background-size: top;
+        padding: 20px;
+    }
+    .ap-txt-p,
+    .ap-txt-p-2 {
+        font-size: 20px;
+    }
+    .ap-conteudo-bloco-segunda>button {
+        border: 2px solid #a07438;
+        border-radius: 17px;
+        color: #8b5000;
+        height: 50px;
+        width: 120px;
+        font-size: 18px;
+        margin-right: 200px;
+    }
+    #pt-cima-terceira,
+    #pt-central-terceira,
+    #pt-cima-quinta,
+    #pt-central-quinta,
+    #pt-central-sexta,
+    #pt-central-setima,
+    #pt-cima-setima {
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+    .conteudo-lista-paciente,
+    .conteudo-lista-profissionais,
+    .conteudo-lista-vantagem,
+    .conteudo-lista-comunidade,
+    .conteudo-lista-vantagens,
+    .conteudo-lista-facilidade {
+        font-size: 18px;
+    }
+    #pt-baixo-terceira {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        width: 100%;
+        grid-gap: 20px 10px;
+        padding: 0px;
+        height: 480px;
+    }
+    .trn-pt-paciente p,
+    .trn-pt-profissional p,
+    .trn-pt-vantagem p,
+    .qnt-pt-comunidade p,
+    .qnt-pt-vantagem p,
+    .qnt-pt-facilidade p {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .trn-pt-paciente,
+    .trn-pt-profissional,
+    .trn-pt-vantagem,
+    .qnt-pt-comunidade p,
+    .qnt-pt-vantagem p,
+    .qnt-pt-facilidade p {
+        width: 100%;
+        height: 105%;
+    }
+    #pt-baixo-quinta {
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        width: 100%;
+        grid-gap: 20px 10px;
+        padding: 0px;
+        height: 350px;
+    }
+    #pt-central-sexta h2 {
+        margin-top: 0;
+    }
+    #pt-baixo-setima {
+        grid-gap: 20px 20px;
+    }
+    .conteudo-lista-paciente,
+    .conteudo-lista-profissionais,
+    .conteudo-lista-vantagem,
+    .conteudo-lista-comunidade,
+    .conteudo-lista-vantagens,
+    .conteudo-lista-facilidade {
+        font-size: 18px;
+    }
+    .qnt-pt-imagem {
+        background-color: #ffffff;
+        width: 0px;
+        background-image: none;
+    }
+    .qnt-bloco-conteudo {
+        background-color: none;
+        border-radius: 35px;
+        display: flex;
+        height: 390px;
+        position: relative;
+        width: 100%;
+    }
+    .qnt-pt-comunidade,
+    .qnt-pt-vantagens,
+    .qnt-pt-facilidade {
+        background-color: #f8f7f7;
+    }
+    .sxt-primeiro-bloco h3 {
+        font-size: 18px;
+    }
+    .trn-bloco-conteudo {
+        height: 105%;
+    }
+}
 
 
 /* celular */
@@ -464,6 +591,7 @@ li {
     .trn-pt-vantagem {
         font-size: 10px;
         width: 100%;
+        height: 110%;
     }
     #pt-baixo-quinta {
         display: flex;
