@@ -58,10 +58,10 @@
 }
 
 .main-segunda {
-    background-image: url(../img/medica.png);
+    background-image: url(../img/imagem\ 3.2);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 30% 45%;
+    background-position: 30% 3%;
     border-radius: 35px;
     height: 390px;
 }
@@ -71,8 +71,13 @@
     width: 600px;
 }
 
-.conteudo-segunda-secao>p {
+.conteudo-segunda-secao p {
     font-size: 24px;
+    color: white;
+}
+
+.conteudo-segunda-secao h1 {
+    color: white;
 }
 
 .conteudo-segunda-secao>a {
