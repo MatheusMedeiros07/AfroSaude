@@ -330,10 +330,20 @@ address {
 }
 
 @media (min-width: 669px) and (max-width: 1024px) {
+    .divisao-principal {
+        margin: 10px 0px;
+        width: auto;
+        padding: 0px;
+        height: 100%;
+    }
+    .ap-primeira {
+        height: 400px;
+        margin: 4%;
+    }
     .ap-segunda1,
     .ap-quarta {
-        margin-left: 10%;
-        width: 80vw;
+        margin: 4%;
+        /* width: 80vw; */
     }
     .ap-txt-h1 {
         font-size: 22px;
