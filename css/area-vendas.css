@@ -405,10 +405,10 @@
     }
 }
 
-@media (max-width: 470px) {
-    .principais-temas {
-        margin-top: 30px;
-    }
+
+/* Celular */
+
+@media (max-width: 667px) {
     .principais-temas-mobile,
     .afro-conectar,
     .afro-assine {
@@ -419,7 +419,7 @@
     }
     .divisao-principal-titulo {
         font-weight: bolder;
-        font-size: 30px;
+        font-size: 28px;
     }
     .membro-botao {
         font-size: 12px;
@@ -430,14 +430,14 @@
     .main-segunda {
         margin: 5px;
         width: calc(100vw - 10px);
-        height: 50vh;
+        height: 40vh;
     }
     .grade-blog-item:nth-child(n+4) {
         display: none;
     }
     .grade-blog-item {
         width: calc(80vw - 10px);
-        height: calc(50vh - 20px);
+        height: calc(30vh - 20px);
     }
     .grade-blog {
         grid-template-columns: 1fr;
@@ -473,6 +473,59 @@
     .trn-bloco-conteudo {
         margin-left: 1vw;
         width: calc(90vw - 10px);
-        height: calc(100vh - 10px);
+        height: calc(80vh - 10px);
+    }
+}
+
+
+/* Intermediario */
+
+@media (min-width: 668px) and (max-width: 1024px) {
+    .principais-temas {
+        margin-top: 30px;
+    }
+    .principais-temas-mobile,
+    .afro-conectar,
+    .afro-assine {
+        text-align: left;
+        margin: 10px;
+        width: calc(80vw - 10px);
+        font-size: 15px;
+    }
+    .divisao-principal-titulo {
+        font-weight: bolder;
+        font-size: 30px;
+    }
+    .main-segunda {
+        margin: 10px;
+        width: calc(98vw - 10px);
+        height: 25vh;
+    }
+    .grade-blog-item:nth-child(n+5) {
+        display: none;
+    }
+    .grade-blog-item {
+        width: calc(30vw - 10px);
+        height: calc(30vh - 20px);
+        background-color: blue;
+    }
+    .grade-blog {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .conteudo-segunda-secao>h1,
+    .conteudo-segunda-secao>p {
+        margin-top: -40px;
+    }
+    .conteudo-segunda-secao>h1 {
+        font-size: 30px;
+    }
+    .conteudo-segunda-secao>p {
+        font-size: 15px;
+        margin-top: 10px;
+        width: 40vw;
+    }
+    .conteudo-segunda-secao>a {
+        padding: 0.5rem;
     }
 }
