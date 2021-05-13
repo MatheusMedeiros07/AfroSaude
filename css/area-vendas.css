@@ -367,48 +367,10 @@
     }
 }
 
-@media screen and (min-width:471px) and (max-width:770px) {
-    .principais-temas-mobile {
-        font-size: 20px;
-        width: 100vw;
-    }
-    .grade-blog-item:nth-child(n+4) {
-        display: none;
-    }
-    .grade-blog {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        margin: 2rem;
-    }
-    .grade-blog-item {
-        margin: 1rem auto;
-        width: calc(290px -2rem);
-        height: 200px;
-    }
-    .main-segunda {
-        margin: 1rem auto;
-        width: calc(290px - 1rem);
-        height: 180px;
-    }
-    .divisao-principal {
-        margin: 1rem;
-        width: calc(100vw - 2rem);
-    }
-    .primeiro-container {
-        text-align: center;
-        width: 70vw;
-    }
-    .primeiro-container>p,
-    .primeiro-container>h1 {
-        font-size: 20px;
-        margin-left: 0;
-    }
-}
-
 
 /* Celular */
 
-@media (max-width: 667px) {
+@media (max-width: 467px) {
     .principais-temas-mobile,
     .afro-conectar,
     .afro-assine {
@@ -480,7 +442,7 @@
 
 /* Intermediario */
 
-@media (min-width: 668px) and (max-width: 1024px) {
+@media (min-width: 490px) and (max-width: 1024px) {
     .principais-temas {
         margin-top: 30px;
     }
@@ -505,9 +467,9 @@
         display: none;
     }
     .grade-blog-item {
-        width: calc(30vw - 10px);
-        height: calc(30vh - 20px);
-        background-color: blue;
+        margin: 40px;
+        width: calc(40vw - 20px);
+        height: calc(40vh - 20px);
     }
     .grade-blog {
         grid-template-columns: 1fr 1fr;
