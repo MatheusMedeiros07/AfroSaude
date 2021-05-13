@@ -417,36 +417,31 @@
         width: calc(80vw - 40px);
         font-size: 15px;
     }
-
     .divisao-principal-titulo {
         font-weight: bolder;
         font-size: 30px;
-        text-align: center;
     }
-
     .membro-botao {
-        
         font-size: 12px;
     }
-    
-    
     .item-plano {
         padding: 5px 5px;
     }
-
     .main-segunda {
-        margin: 20px;
-        width: calc(80vw - 40px);
-        height: calc(40vh - 40px);
+        margin: 5px;
+        width: calc(100vw - 10px);
+        height: 50vh;
     }
     .grade-blog-item:nth-child(n+4) {
         display: none;
     }
+    .grade-blog-item {
+        width: calc(80vw - 10px);
+        height: calc(50vh - 20px);
+    }
     .grade-blog {
-        grid-template-columns: 50px;
-        grid-template-rows: calc(80vw - 40px);
-        margin: 20px;
-        background-color: green;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
     }
     .primeiro-container {
         text-align: center;
@@ -464,22 +459,20 @@
     .conteudo-segunda-secao>p {
         margin-top: -40px;
     }
-
     .conteudo-segunda-secao>h1 {
         font-size: 16px;
     }
-
     .conteudo-segunda-secao>p {
         font-size: 12px;
         margin-top: 10px;
         width: 40vw;
-
     }
-
     .conteudo-segunda-secao>a {
         padding: 0.5rem;
     }
     .trn-bloco-conteudo {
-        width: 90vw;
+        margin-left: 1vw;
+        width: calc(90vw - 10px);
+        height: calc(100vh - 10px);
     }
 }
