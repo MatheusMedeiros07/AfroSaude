@@ -183,7 +183,7 @@ div {
     border-radius: 35px;
     border-top: 68px solid;
     display: inline-block;
-    height: 290px;
+    height: 220px;
     position: relative;
     width: 390px;
 }
@@ -217,7 +217,7 @@ div {
     font-size: 24px;
     left: 10%;
     position: absolute;
-    top: -18%;
+    top: -25%;
 }
 
 .trn-ap-paciente {
@@ -245,7 +245,7 @@ div {
     font-weight: bold;
     font-family: Quicksand;
     font-size: 22px;
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
 li {
