@@ -159,21 +159,20 @@ figcaption p {
 }
 #pt-baixo-ter {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    height: 50%;
-    grid-gap: 20px 20px;
-    padding: 20px;
+    justify-content: space-between;
     margin: 20px 0;
 }
 
 @media (max-width: 668px) {
     #pt-baixo-ter {
-        align-items: center;
         display: flex;
+        justify-content: center;
         flex-direction: column;
+        margin: 0;
         width: 100%;
+        height: 1000px;
+        grid-gap: 20px 20px;
+        padding: 20px;
     }
     .img-topo {
         margin: 20px 20px;
@@ -229,11 +228,17 @@ figcaption p {
         text-align: center;
         font-size: 12px;
     }
-    .conteudo-lista-valores,
+    
     .conteudo-lista-missao,
     .conteudo-lista-visao {
+        font-size: 18px;
+        margin-top: 50px;
+        padding: 20px;
+        text-align: justify;
+    }
+    .conteudo-lista-valores{
         font-size: 16px;
-        margin-top: 15px;
+        margin-top: 10px;
         padding: 10px;
         text-align: justify;
     }
@@ -332,6 +337,16 @@ figcaption p {
         width: 90vw;
         margin: 1.7rem 0;
     }
+    #pt-baixo-ter {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;        
+        width: 100%;
+        height: 120vw;
+        grid-gap: 20px 20px;
+        padding: 20px;
+        
+    }
     .biografia>figure {
         width: 130px;
         height: 130px;
@@ -344,7 +359,7 @@ figcaption p {
         text-align: justify;
         line-height: 20px;
         width: 90%;
-        padding: 10px;
+        padding: 30px;
     }
     .img-topo {
         margin: 100px 100px;
@@ -358,21 +373,19 @@ figcaption p {
         height: 250px;
         padding: 0px;
     }
-    #pt-baixo-ter {
-        display: flex;
-        flex-direction: column;
-        width: 90vw;
-        align-items: center;
-    }
-    .conteudo-lista-valores,
+   
+    
     .conteudo-lista-missao,
     .conteudo-lista-visao {
-        font-size: 32px;
+        margin-top: 50px;
+        font-size: 25px;
         padding: 10px;
     }
-    .conteudo-lista-valores,
-    .conteudo-lista-missao,
-    .conteudo-lista-visão {
-        margin-top: 25px;
+    .conteudo-lista-valores{
+        margin-top: 10px;
+        font-size: 25px;
+        padding: 5px;
     }
+    
+    
 }
