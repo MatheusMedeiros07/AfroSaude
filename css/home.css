@@ -232,10 +232,10 @@
 .conteudo-lista-vantagens,
 .conteudo-lista-facilidade {
     color: #653a00;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 22px;
+    font-weight: bold;
     margin-top: 0px;
-    padding-top: 30px;
+    padding-top: 15px;
 }
 
 .conteudo-lista-comunidade,
@@ -543,5 +543,13 @@ li {
     .conteudo-lista-vantagens,
     .conteudo-lista-facilidade {
         margin-top: 0px;
+    }
+    .conteudo-lista-paciente,
+    .conteudo-lista-profissionais,
+    .conteudo-lista-vantagem,
+    .conteudo-lista-comunidade,
+    .conteudo-lista-vantagens,
+    .conteudo-lista-facilidade {
+        font-size: 16px;
     }
 }

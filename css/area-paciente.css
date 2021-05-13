@@ -244,14 +244,8 @@ div {
     color: #653a00;
     font-weight: bold;
     font-family: Quicksand;
-    font-size: 25px;
-    margin-top: 3px;
-}
-
-.conteudo-lista-agendamento,
-.conteudo-lista-telemedicina,
-.conteudo-lista-prontuario {
-    padding-top: 100px;
+    font-size: 22px;
+    padding-top: 40px;
 }
 
 li {
@@ -377,10 +371,10 @@ address {
     .rodape-endereco {
         font-size: 1rem;
     }
-    .sxt-primeiro-bloco h3 { 
+    .sxt-primeiro-bloco h3 {
         font-size: 20px;
     }
-    .sxt-segundo-bloco p { 
+    .sxt-segundo-bloco p {
         font-size: 16px;
     }
 }
@@ -503,13 +497,10 @@ address {
         width: 100%;
         padding-right: 30px;
     }
-
-    .sxt-primeiro-bloco h3 { 
+    .sxt-primeiro-bloco h3 {
         font-size: 18px;
     }
-    .sxt-segundo-bloco p { 
+    .sxt-segundo-bloco p {
         font-size: 12px;
     }
-    
-    
 }
