@@ -373,7 +373,11 @@ figcaption p {
         height: 250px;
         padding: 0px;
     }
-   
+
+    .stm-bloco-blog {
+        margin-bottom: 20px;
+    }
+     
     
     .conteudo-lista-missao,
     .conteudo-lista-visao {
