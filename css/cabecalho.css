@@ -58,7 +58,7 @@ header {
 }
 
 .cb-responsivo .cb-responsivo-itens li .item-cabecalho:hover {
-    color: black;
+    color: #fdb048;
     border-radius: 5px;
     box-shadow: 0 0 5px #b7bebe, 0 0 10px #fdb048;
 }
