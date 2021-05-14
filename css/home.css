@@ -355,6 +355,7 @@ li {
         background-size: top;
         padding: 20px;
     }
+    .mn-quarta img {}
     .ap-txt-p,
     .ap-txt-p-2 {
         font-size: 20px;
@@ -422,7 +423,7 @@ li {
         width: 100%;
         grid-gap: 20px 10px;
         padding: 0px;
-        height: 350px;
+        height: 880px;
     }
     #pt-central-sexta h2 {
         margin-top: 0;
@@ -438,11 +439,6 @@ li {
     .conteudo-lista-facilidade {
         font-size: 18px;
     }
-    .qnt-pt-imagem {
-        background-color: #ffffff;
-        width: 0px;
-        background-image: none;
-    }
     .qnt-bloco-conteudo {
         background-color: none;
         border-radius: 35px;
@@ -450,6 +446,16 @@ li {
         height: 390px;
         position: relative;
         width: 100%;
+        margin-top: 510px;
+    }
+    .qnt-pt-imagem {
+        margin-top: 0px;
+        max-width: 100%;
+        background-color: #ffffff;
+        width: 100%;
+        height: 480px;
+        position: absolute;
+        background-position: 100% 11%;
     }
     .qnt-pt-comunidade,
     .qnt-pt-vantagens,
@@ -681,6 +687,6 @@ li {
     .conteudo-lista-comunidade,
     .conteudo-lista-vantagens,
     .conteudo-lista-facilidade {
-        font-size: 20px;
+        font-size: 19px;
     }
 }
