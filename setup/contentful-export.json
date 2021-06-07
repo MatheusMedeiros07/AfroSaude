@@ -1,0 +1,104 @@
+{
+    "name": "BlogAfroSaude",
+    "description": "",
+    "displayField": "title",
+    "fields": [
+        {
+            "id": "id",
+            "name": "id",
+            "type": "Integer",
+            "localized": false,
+            "required": false,
+            "validations": [],
+            "disabled": false,
+            "omitted": false
+        },
+        {
+            "id": "title",
+            "name": "title",
+            "type": "Symbol",
+            "localized": false,
+            "required": false,
+            "validations": [],
+            "disabled": false,
+            "omitted": false
+        },
+        {
+            "id": "subtitle",
+            "name": "subtitle",
+            "type": "Symbol",
+            "localized": false,
+            "required": false,
+            "validations": [],
+            "disabled": false,
+            "omitted": false
+        },
+        {
+            "id": "longDescription",
+            "name": "longDescription",
+            "type": "Text",
+            "localized": false,
+            "required": false,
+            "validations": [],
+            "disabled": false,
+            "omitted": false
+        },
+        {
+            "id": "image",
+            "name": "image",
+            "type": "Link",
+            "localized": false,
+            "required": false,
+            "validations": [],
+            "disabled": false,
+            "omitted": false,
+            "linkType": "Asset"
+        }
+    ],
+    "sys": {
+        "space": {
+            "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "gzs22y5r9in3"
+            }
+        },
+        "id": "AfroSaude",
+        "type": "ContentType",
+        "createdAt": "2021-05-12T13:40:19.675Z",
+        "updatedAt": "2021-05-12T13:40:20.804Z",
+        "environment": {
+            "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+            }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-05-12T13:40:20.804Z",
+        "firstPublishedAt": "2021-05-12T13:40:20.804Z",
+        "createdBy": {
+            "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "1rEtNcVswNgQoExlTD8NKu"
+            }
+        },
+        "updatedBy": {
+            "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "1rEtNcVswNgQoExlTD8NKu"
+            }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+            "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "1rEtNcVswNgQoExlTD8NKu"
+            }
+        }
+    }
+}
